@@ -1,0 +1,562 @@
+a  {color: #500B0B; 
+}
+
+body {
+      margin: 0;
+      padding: 0;
+      background: none; 
+    }
+body { background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-image:  url("images/old-grunge-vector-background.jpg");
+  margin-left: 1cm; margin-right: 1cm;
+}
+body#altbackground { 
+  background-repeat: repeat-y; 
+  background-attachment: ; 
+  background-image:  url("images/sharkbaysunset.jpg");  
+  background-position: center; 
+
+  margin-left: 1cm; margin-right: 1cm;   
+}
+body#altbackground_lusa{
+background-image: url("images/whaleshark.jpg");
+
+}
+
+div#lusa{
+  background-image: url("images/lusa/light2.jpg");
+background-repeat: none;
+background-position: center;
+background-attachment: fixed;
+
+}
+
+div#bret {
+    background-image: url("images/whaleshark.jpg");
+    background-position: left;
+    background-repeat: none;
+    background-attachment: fixed;
+}
+    
+em {  
+  font-size: 115%;
+  font-weight: bolder;
+  font-style: inherit;
+
+}
+
+h1 { color: #500B0B; 
+  font-family: Firefly; 
+  text-align: center; 
+  border: none; 
+  background-color : none;
+  font-size: 350%;
+  border-radius: 80px;
+  box-shadow: none;
+  margin-bottom: 10px;
+  margin-right: 0%;
+  margin-left: 0%;
+  margin-top: 5px;
+  padding: 10px;
+
+}
+h1#sub{
+  	margin-left: 0%;
+  	margin-right: 14%;
+}
+h2 { font-family: Firefly; 
+  color: #F00C0C; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  border-radius: 20px;
+  padding: 10px
+}
+h4 {
+	text-align: left; 
+	font-size: 240%; 
+	color: rgba(113, 7, 7, 0.95); 
+  	padding: 10px;
+  	box-shadow: ;
+  	border-radius: 20px;
+  	width: 98.6%;
+  	font-family: Oranienbaum;
+  	margin-right:0%;
+  	margin-left:0%;
+  	margin-top:0%;
+  	margin-bottom:0%;
+  	align: center;
+  
+}
+#h4sidebar_right{
+	margin-right:0%;
+	padding: 8px;
+	width: 90%;
+}
+#h4about{
+	align: left;
+	margin-right:100%;
+	width:25%;
+	float: center;
+	
+}
+
+iframe { position: center; 
+     border-radius: 5px; 
+     border-spacing: 10px; 
+     padding: 10px; 
+     margin-bottom: 10px;
+     border: medium inset rgba(113, 7, 7, 0.95);
+
+}
+
+p {
+    font-family: Oranienbaum;
+    color: #500B0B;
+    font-size: 135%;
+    font-style: center; 
+    font-weight: 0%; 
+    margin-right:10px;
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    
+}
+p#article_text{
+	margin-right:15%;
+}
+
+.textopacity_r {
+      background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+      background: rgba(204, 204, 204, 0.2);
+      border-radius: 10px;
+      padding: 10px;
+      float: top;
+    margin-right:15%;
+}
+
+
+.textopacity {
+      background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+      background: rgba(204, 204, 204, 0.4);
+      border-radius: 20px;
+      padding: 10px;
+}
+.textopacitybottom{ /* To keep opaque text background under image galleries */
+      background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+      background: rgba(204, 204, 204, 0.4);
+      border-radius: 20px;
+      position: inherit;
+      top: 100%;
+      padding-top: 10px;
+      width: 100%;
+  
+}
+
+a.active {
+      background-color: #fff;
+      color: #444;
+    }
+    
+.articleform { 
+	background-color: #F8F8F8;
+    padding: 20px;
+    border: 5px solid #008000 ; 
+    border-color: rgba(113, 7, 7, 0.95); 
+    border-style: inset; 
+    border-radius: 10px;
+    margin: 10px;   
+    font: black;  
+    float:left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    width:81%;
+    
+}
+#articleform_header{
+	background-image: url("images/old-grunge-vector-background.jpg");
+	
+	background-repeat:;
+	background-position: bottom;
+	background-color: #EAD579;
+}
+#articleform_awards{
+	width:92%;
+}
+#articleform_upload{
+	width: 50%;
+}
+
+article#altbackground1{
+  background-image: url("images/whaleshark.jpg");
+  background-position: fixed;
+ 
+    padding: 20px;
+    border: 5px solid #008000 ; 
+    border-color: rgba(113, 7, 7, 0.95); 
+    border-style: inset; 
+    border-radius: 10px;
+    margin: 10px; 
+    font: black;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    
+}
+article#altbackground2{
+	background-image: url("images/under_construction.jpg");
+}
+article#footer{
+
+     background-image: url('images/old-grunge-vector-background.jpg');
+     background-position:bottom;
+    }
+}
+
+.comment_container {
+	
+	padding: 15px;
+		
+}
+.comment_reply{
+	margin-top:10px;
+	border: 4px solid rgba(0,0,0,0.1);
+	border-radius: 10px;
+	width:50%;
+	padding: 10px;
+	margin-top:bottom 15px;
+	
+	
+	
+}
+.comment-form {
+	border: 4px solid rgba(0,0,0,0.1);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+	width:52%;
+	padding: 5px;
+	margin-top:15px;
+	font-family:  ;
+	font-size:150%;
+}
+.comments-wrapper-heading{
+	font-family: Nickainley ; 
+	font-size:350%;
+	background-color:#F8F8F8;
+  color: #591111; 
+  box-shadow: none; 
+  border-radius: 10px;
+  margin-left:0px;
+  margin-top:10px;
+  margin-bottom:0px;
+  padding: 5px;
+  width: 51%;
+  text-aign: center;		
+}
+.form-submit-button{
+	cursor: pointer;
+	background: -webkit-linear-gradient(top, #efefef, #ddd);
+    color: #333;
+    border: 4px solid rgba(0,0,0,0.1);
+    font-family: Nickainley ;
+    font-size:200%;
+}
+.container_gallery {
+    
+    padding: 0px;
+    border: 5px solid #008000 ; 
+    border-color: rgba(113, 7, 7, 0.95); 
+    border-style: none; 
+    font: black;  
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0px;
+    width: 80%;
+    margin: 30px auto;
+    overflow: hidden;
+  }
+    .container_galleryimage {
+    background :none;
+    padding: 20px; 
+    font: black;    
+    width: 96%;
+	margin: 10px auto;
+    overflow: hidden;
+    
+  }
+  .container_1 input#search{                                 /* search bar */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
+  border-radius: 20px;
+  width: 150px;
+  height: 20px;
+  border: solid white: 10px;
+  padding: none;
+  font-size: 10pt;
+  float: right;
+  padding-left: 10px;
+  overflow: scroll;
+  width: 180px;
+  vertical-align: middle;
+  white-space: nowrap;
+  
+}
+
+.box {                                             /* Figure out wtf this is for */
+  padding: 0px;
+  border-radius: 0px;
+  float: right;
+  position: left;
+
+}
+.featuresColumn {
+	float: left; 
+	width: 32%; 
+	margin-right: 10px;
+	
+	}
+	
+.flagimage { padding: 0px;
+  	border-radius: 15px;
+  	padding-right: 0px;
+  	float: right;
+   
+}
+
+.flexbox{
+  	display: flex; 
+  	flex-direction: row;
+  	flex-wrap: wrap;
+  	justify-content: stretch;
+  	margin: auto;
+  	 
+}
+.flexitem{
+	
+}
+.galleryItem {
+    width : 130%;
+    color: #797478;
+    font: 20px/1.5 Verdana, Helvetica, sans-serif;
+    float: right;
+    color: #797478;
+    font: 10px/1.5 Verdana, Helvetica, sans-serif;
+    float: left; 
+    width: 16%;
+    margin:  10% 4% 10px 4%;
+    margin-top: 10px;
+  }
+  .galleryitem_last{
+    max-width: 230%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: rgba(113, 7, 7, 0.95);
+    border-style: none;
+    margin: 10% 4% 10px 4% ;
+    margin-top: 5px;
+    width: 130%;
+    
+}
+  .galleryItem h3 {
+    text-transform: uppercase;
+    font-size: 170%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+    font-family: times;
+    color: #500B0B;
+    margin:  1% 4% 1px 4%;
+    overflow: visible;
+    padding: 3px;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.3);
+      width: 130%;
+  }
+  
+  .galleryItem img {
+    max-width: 150%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: rgba(113, 7, 7, 0.95);
+    border-style: none;
+    margin: 10% 4% 10px 4% ;
+    margin-top: 5px;
+    width: 130%;
+    height: 40%;
+    
+}
+
+.galleryfoot{
+  padding-top: 200px;
+  position: relative;
+    height: 20px;
+    border: 3px solid #73AD21;
+}
+  
+.icon {
+  padding-left: 10px;
+  float: left;
+  
+}
+
+.imageright {
+    padding: 10px; 
+    background-color: none; 
+    border: rgba(113, 7, 7, 0.95);
+    border-style: inset; border-radius: 10px ; 
+    float: right;
+    margin-left: 10px
+    
+}
+
+.last {
+	margin-right: 0%;
+}
+
+.nav ul {
+      list-style: inside;
+      text-align: justify;
+      padding-top: 10px;
+      
+      border: solid white: 0px;
+      background-color: none; opacity: 1.8;
+      margin-left: 10px;
+      padding-bottom: 5px;
+      position: center;
+      padding: 10px;
+      float: none;
+
+      }
+    
+ .nav li {
+      font-family: 'Monastic Pro', sans-serif;
+      font-size: 112%;
+      line-height: 100px;
+      height: 40px;
+      border: 0px solid #888;
+      line-height: 40px;
+      padding: 3px;
+      border-collapse: justify;
+      text-align: justify;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.49);
+      border-radius: 400px;
+      background-color: none;
+      content: left;
+    }
+
+    .nav li {
+      display: inline-block;
+      text-align: justify;
+
+    }
+    .nav a {
+      text-decoration: none;
+      color: inherit;
+    }
+    .nav a:hover {
+      background-color: ;
+    }
+    
+        
+.sidebar_right{
+	background-color:#EAD579 ;
+	background-image: url("images/old-grunge-vector-background.jpg");
+	background-position: top;
+    border: 5px solid #008000 ; 
+    border-color: rgba(113, 7, 7, 0.95); 
+    border-style: inset; 
+    border-radius: 10px;
+    margin-left: 82%; 
+    Margin-right: 10px;
+    margin-top:10px;
+    position: fixed;
+    padding:10px;
+    font: black;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    float: right;
+    width:12%;
+	
+}
+
+#SkypeButton_Call_trevor.garrity_1 {
+  
+      margin:0 !important;
+    }
+            
+#SkypeButton_Call_trevor.garrity_1 img  {
+      margin:0 !important;
+      vertical-align:left !important;
+      background-color: black;
+           
+}
+
+.tst1 {font-family: arial; text-align: center; font-size: 125%;}
+
+.tst2 {
+    padding: 10px; 
+    background-color: none; 
+    border: rgba(113, 7, 7, 0.95);
+    border-style: inset; border-radius: 10px ; 
+}
+ .tst3 {  
+  padding: 0px; 
+    background-color: none; 
+    border: rgba(113, 7, 7, 0.95);
+    border-style: none;
+    border-radius: 10px ; 
+    float: none;
+    margin-right: 10px ;
+    border-radius: 10px;
+    
+     
+}
+
+.textopacity_box{
+
+      background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+      background: rgba(204, 204, 204, 0.2);
+      border-radius: 10px;
+      font-size: 170%;
+      font-family: times;
+      height: inherit;
+      margin:  4% 4% 1px 4%;
+      overflow: hidden;
+      padding: 5px;
+      width: 130%;
+
+}
+
+
+  
+
+
+
+
+
+/* MEDIA QUERIES*/
+@media only screen and (max-width : 940px),
+only screen and (max-device-width : 940px){
+ .galleryItem {width: 21%; }
+ 
+}
+ 
+@media only screen and (max-width : 720px),
+only screen and (max-device-width : 720px){r
+ .galleryItem {width: 29.33333%;}
+}
+ 
+@media only screen and (max-width : 530px),
+only screen and (max-device-width : 530px){
+ .galleryItem{width: 46%;}
+}
+ 
+@media only screen and (max-width : 320px),
+only screen and (max-device-width : 320px){
+ .galleryItem {width: 96%;}
+ .galleryItem .wrapper .featuresColumn img {width: 96%;}
+ .galleryItem h3 {font-size: 18px;}
+ .galleryItem p, {font-size: 18px;}
+}
+    border-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 15px;
+        
