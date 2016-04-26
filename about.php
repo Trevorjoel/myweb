@@ -17,7 +17,7 @@
     <body>
     <?php include 'sidebar_right.php';
 ?>
-        
+        <br><br><br><br>
     <h1 style="margin-right: 14%;";>Who we are</h1>
 
       <div class="textopacity_r">
@@ -86,7 +86,7 @@
     <div>
     
     <p><em>I hope you enjoy and share your thoughts with me.</em><p>Trevor</p></p>  
-    <a  style="float:""; "href="upload.php?id=10"><img src="images/upload.png" WIDTH=201 HEIGHT=58 ></a><br>
+    <a href="upload.php?id=10"><img src="images/upload.png" WIDTH=201 HEIGHT=58 ></a>
     
     </div>
 </div>

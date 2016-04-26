@@ -87,6 +87,8 @@ $success= mysql_query("INSERT INTO comments.commentform  (`ID`, `name`, `email`,
 
 </div>
 </article>
+<div  class="back">
+ <a style="cursor:pointer" onclick="history.go(-1);return true;" rel=nofollow”> <img src="images/back_button_orange_1358241199.png"></a>
 <?php
 //header("Location: http://www.google.com");
 mysql_close($link);

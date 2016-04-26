@@ -11,10 +11,12 @@
 <body>
 
 <?php include 'sidebar_right.php'; ?>
+<br><br><br><br>
+ <h1 style="font-size : 250%">Learning how to learn</h1>
 <article class=articleform>
       
-        <h1 style="font-size : 250%">Learning how to learn</h1>
-        <hr>
+       
+        
       
           <IMG class="tst3"SRC="images/573647.jpg" ALT="php" WIDTH=288 HEIGHT=180> <p><b>The internet is a wonderful place for learning about anything,</b> however, the hardest part is finding good information, the needles in the haystack so to speak. You can spend hours on terrible tutorials with teachers who have the charm and personality of a wet ashtray or days scouring through poorly put together instructions.</p> 
 

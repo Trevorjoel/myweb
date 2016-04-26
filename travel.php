@@ -12,6 +12,7 @@
 <body>
   
 <?php include 'sidebar_right.php'; ?>
+<br><br><br><br>
 <h1 style="margin-right: 14%;";>Travels adventures and stories</h1>
 
 

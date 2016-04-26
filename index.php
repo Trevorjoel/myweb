@@ -17,7 +17,7 @@
   						fjs.parentNode.insertBefore(js, fjs);
 }
 			(document, 'script', 'facebook-jssdk'));</script>
-
+<br><br><br><br>
 			<h1>Home page</h1>
 
   	<div class="textopacity">
@@ -89,13 +89,12 @@
     <article class=articleform>
           <IMG style="float: right;"class="flagimage"SRC="images/label_new red.png" ALT="newbutton" WIDTH=80 HEIGHT=60>
     
-      <H4>Author Profile</H4>
+      <H4>Learning how to learn</H4>
       <hr>
-        <IMG class="tst3"SRC="images/albert1.jpg" ALT="theteachermarket" WIDTH=240 HEIGHT=136>
-        <IMG style="float: right;"class="flagimage"SRC="images/americanflag.jpg" ALT="theteachermarket" WIDTH=80 HEIGHT=60>
-        <p><b>Name:<br>Albert "Fingers" Phagtron, The Third<br>
-        Location:<br>No fixed address</b>
-        </p> <p>Albert "fingers" Phagtron is a freelance author who's articles will be featured in the comedy section of our website...</p>
+       <IMG class="tst3"SRC="images/573647.jpg" ALT="php" WIDTH=288 HEIGHT=180> <p><b>The internet is a wonderful place for learning about anything,</b> however, the hardest part is finding good information, the needles in the haystack so to speak. You can spend hours on terrible tutorials with teachers who have the charm and personality of a wet ashtray or days scouring through poorly put together instructions.</p> 
+
+        
+
         <br><a href="albert.php?id=7"><img src="images/buttonreadmore.png" WIDTH=101 HEIGHT=41 ></a>
          
     </article>

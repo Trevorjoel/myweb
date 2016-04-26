@@ -25,6 +25,7 @@
 
 <?php include 'sidebar_right.php';
 ?>
+<br><br><br><br>
 <h1 id="sub">Music and Art</h1> 
 
   <div id="fb-root"></div>

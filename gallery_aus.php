@@ -4,14 +4,14 @@
 			<link rel="stylesheet" href="main.css">
 <?php include 'header.php';?>
 	</head>
-		<body ID="altbackground">
+		<body ID="">
 	
-		
-		
+		<br><br><br><br>
+		<h1>Artist profile and Gallery</h1>
 
 	<div ID ="bret" class="wrapper">
 		<div class="textopacity">
-		<h1>Artist profile and Gallery</h1>
+		
 		<hr>
 			<IMG class="tst3" SRC="images/bret_profile.jpg" ALT="bret and sam" WIDTH=240 HEIGHT=135>
 		 	<IMG style="float: right;"class="flagimage"SRC="images/australianflag.jpg" ALT="theteachermarket" WIDTH=80 HEIGHT=60>

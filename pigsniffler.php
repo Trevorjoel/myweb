@@ -23,12 +23,11 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 </div>  
 
-
-
+<br><br><br><br>
+<h1>Pig Sniffler: A tale of swine and murder</h1>
 <article class=articleform>
 <IMG style="float: right;"class="flagimage"SRC="images/update_post_it_note.png" ALT="theteachermarket" WIDTH=80 HEIGHT=60>
-<h1>Pig Sniffler: A tale of swine and murder</h1>
-<hr>
+
   
   <p>Welcome to my story. I am writing it as I go and updates will be posted below.</p><p>Here is a snippet</p>
   <p> "Things ain't' been the same 'round here Joe since we contracted our farm out to Monsanto," Cleetus started. ...

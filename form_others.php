@@ -1,3 +1,18 @@
+<html>
+
+<head> 
+
+<title>Message</title>
+
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<?php include 'header.php'; ?>
+</head>
+
+
+<body>
+<br><br><br><br>
+<article class=articleform>
 <?php
 
 $first_name = $_POST ['first_name'];
@@ -9,6 +24,8 @@ $article_body = $_POST ['article_body'];
 $links = $_POST ['links'];
 $extra = $_POST ['extra'];
 
+$msg = ("<br>" ."$first_name" . "<br>" . " $last_name" .  "<br>" . " $email" . "<br>" . "  $publish_area " ."<br>" . " $title " ."<br>" . " $article_body" ."<br>" .
+		" $links" ."<br>" . " $extra");
 
 $first_name = filter_input(INPUT_POST,'first_name' ,FILTER_SANITIZE_STRING);
 $last_name = filter_input(INPUT_POST,'last_name' ,FILTER_SANITIZE_STRING);
@@ -22,20 +39,7 @@ $extra = filter_input(INPUT_POST,'extra' ,FILTER_SANITIZE_STRING);
 $to = 'trevoofnorthcliffe@gmail.com';
 
 
-/* Invalid email message
-if (!filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
-	echo("<p>"."Hello,"."<br>". "$name." . "<br>" . "$email"."<br>"." Your post was a great
-				success!" . "<br>" ."Here is a copy of your message:");
-		
-}
 
-else {
-	 
-	echo "<p>"."Hello,". " $name"."<br>" . "<b>" . "$email"."</b>"." is not a valid email address. Please go back
-		and enter a valid email address."."</p>"; exit;
-
-}
-*/
 if (!empty($_FILES['files']['name'][0])) {
 	
 	$files = $_FILES ['files'];
@@ -58,41 +62,69 @@ if (!empty($_FILES['files']['name'][0])) {
 				
 				if ($file_size <= 2097152){
 					
-					$file_name_new = uniqid('', true) . '.' .$file_ext;
+					
+					$file_name_new = uniqid('', true) . $last_name . '.' . $file_ext;
+					 
 					$file_destination = 'uploads/' . $file_name_new;
 					
 					if (move_uploaded_file($file_tmp, $file_destination)) {
 						$uploaded[$position] = $file_destination;					
 						}else {
-						$failed [$position] = "[{$file_name}] failed to upload.";
+						$failed [$position] = 
+						"[{$file_name}] failed to upload.";
 						}
 							}else {
-							$failed [$position] = "[{$file_name}] is too damn large.";
+							$failed [$position] = 
+							"[{$file_name}] is too damn large.";
 						} 
 				
 					}else {
 					$failed [$position] = "[{$file_name}] errored with code{$file_error}.";
 				}
 			}else {
-			$failed[$position] = "[{$file_name}] file extension '{$file_ext} is not permitted";
+			echo "<p>$file_name file extension {$file_ext}, is not permitted! <br>Please press the back button and ensure you have .jpg .jpeg .png files only.<br>Your text will
+			still be in the text boxes.</p>";
+			echo ('<br>'.'<a style="cursor:pointer" onclick="history.go(-1);return true;" rel=nofollow”> <img src="images/back_button_orange_1358241199.png"></a>');
+			exit;
 			}
 		}
 		if (!empty($uploaded)){
-			print_r($uploaded);	
+			print_r($uploaded);
+				
 		}
 		
 		if (!empty($failed)) {
-			print_r($failed);
+			print_r ($failed);
+			
 		}
 	}
-$msg = ("<br>" ."$first_name" . "<br>" . " $last_name" .  "<br>" . " $email" . "<br>" . "  $publish_area " ."<br>" . " $title " ."<br>" . " $article_body" ."<br>" . 
-		" $links" ."<br>" . " $extra");
+
+	
+// Invalid email message
+if (!filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
+	    mail($to, $title, $msg);
+		echo("<p>"."Hello,"."<br>". "$first_name." . "<br>" . "$email"."<br>"." Your post was a great 
+				success!" . "<br>" ."Here is a copy of your message:");
+		 
+	} 		
+	
+	else {
+		
+	    
+		echo "<p>"."Hello,". " $first_name"."<br>" . "<b>" . "$email"."</b>"." is not a valid email address. Please go back
+		and enter a valid email address."."</p>"; exit;
+		
+	}
 	
 
 
-//mail($to, $title, $msg);
+
 
 echo  ("$msg");
-
-
 ?>
+<div  class="back">
+ 
+</article>
+</body>
+
+

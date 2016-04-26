@@ -8,15 +8,20 @@
 
 	</head>
 <body>
+
 <?php include 'sidebar_right.php'; ?>
- <article class=articleform>  
+<br><br><br><br>
+<?php echo '<h1>Alberts "Cunt of the year award"</h1>'; 
+    
+    ?>
+ <article class=articleform>
+   
 <?php
  
 	// Create an array and push on the names
     // of your closest family and friends
     
-    echo '<h1>Alberts "Cunt of the year award"</h1>'; 
-    echo "<hr>";
+    
     
     $cunts = array("Nickelback", "George Bush", "Donald Trump");
 	array_push($cunts, "Class 5V");

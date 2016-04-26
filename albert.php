@@ -16,8 +16,8 @@
     
 
 
-
-<h1 style="font-size : 250%">Author Profile</H1> 
+<br><br><br><br>
+<h1 >Author Profile</H1> 
 
 <article class=articleform>
   <header>

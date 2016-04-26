@@ -6,7 +6,7 @@ body {
       padding: 0;
       background: none; 
     }
-body { background-repeat: no-repeat; 
+body { background-repeat: repeat-y; 
   background-attachment: fixed; 
   background-image:  url("images/old-grunge-vector-background.jpg");
   margin-left: 1cm; margin-right: 1cm;
@@ -26,7 +26,7 @@ background-image: url("images/whaleshark.jpg");
 
 div#lusa{
   background-image: url("images/lusa/light2.jpg");
-background-repeat: none;
+background-repeat: repeat;
 background-position: center;
 background-attachment: fixed;
 
@@ -35,8 +35,12 @@ background-attachment: fixed;
 div#bret {
     background-image: url("images/whaleshark.jpg");
     background-position: left;
-    background-repeat: none;
+    background-repeat: repeat;
     background-attachment: fixed;
+    border: 5px solid #008000 ; 
+    border-color: rgba(113, 7, 7, 0.95); 
+    border-style: inset; 
+    border-radius: 0px;
 }
     
 em {  
@@ -423,15 +427,21 @@ article#footer{
 .nav ul {
       list-style: inside;
       text-align: justify;
+      margin-top:2px;
       padding-top: 10px;
+      background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+      background: rgba(204, 204, 204, 0.5);
+      background-image:url("images/old-grunge-vector-background.jpg");
+      border: solid white: 5px;
+      background-color: none; opacity: .9;
       
-      border: solid white: 0px;
-      background-color: none; opacity: 1.8;
       margin-left: 10px;
       padding-bottom: 5px;
-      position: center;
+      position: fixed;
       padding: 10px;
       float: none;
+      border-radius: 50px;
+      width:78.7%;
 
       }
     
@@ -475,7 +485,7 @@ article#footer{
     border-radius: 10px;
     margin-left: 82%; 
     Margin-right: 10px;
-    margin-top:10px;
+    margin-top:190px;
     position: fixed;
     padding:10px;
     font: black;  

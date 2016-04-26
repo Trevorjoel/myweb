@@ -25,7 +25,7 @@
      <?php include 'sidebar_right.php'; ?>
     
 
-  
+  <br><br><br><br>
     <h1 style="margin-right: 14%;";>Teach, learn and share</h1>
     
 

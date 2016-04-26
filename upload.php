@@ -6,11 +6,14 @@
     <link rel="stylesheet" href="main.css">
 <?php include 'header.php';?>
 	</header>
-	<body>
+	
 	<?php include 'sidebar_right.php'; ?>
+	<br><br><br><br><br>
+	<h1 id="sub" >How to get your work online?</h1> .
+	<body>
 	<article class="articleform">
-<h1 id="sub" style="font-size : 250%">How to get your work online?</h1> .
-<hr>
+
+
 
 <p>There are two different forms for those who want to upload their content. Both forms are shown below this instructional text.</p>
 
@@ -55,8 +58,9 @@ Here's how:</p>
 		</p><p>e)Message to the admin. If there is any information that you need the admin to know when they are writing and formatting your article please include it here.
 
 		</p><p><b>f) Double check all information before pressing "Post".</b>
+		<hr>
 
-		</p><h4 id="about" style="font-size: 150%">What happens after you post?</h4>
+		</p><h4 id="about" style="font-size: 150%">What happens after you post or if you make a mistake?</h4>
 
 		<p>First, you will be sent a confirmation email that we have received your mail and our admins will be notified.
 		Then we will check over the materials and contact you if there are any problems. </p><p>
@@ -123,7 +127,7 @@ Here's how:</p>
 
 					</p>
 		<div>
-			 <p><label for="uploads"><br><br>Upload your images:</label></p>
+			 <p><label for="uploads"><br><br>Upload your images. Only jpg, jpeg, png files accepted 2mb or smaller. Maximum 10 files:</label></p>
 			 <input name="files[]" multiple type="file">
 			 
 		</div>
