@@ -305,10 +305,18 @@ article#footer{
 
 }
 .featuresColumn {
+	align-content: stretch;
 	float: left; 
-	width: 32%; 
+	width: 33%; 
 	margin-right: 10px;
-	
+	display: flex; 
+  	flex-direction: column;
+  	flex-wrap: wrap;
+  	justify-content: space-between;
+  	margin: auto;
+	flex-flow: column wrap;
+	flex-grow: <1>;
+	align-items: flex-start;
 	}
 	
 .flagimage { padding: 0px;
@@ -324,6 +332,7 @@ article#footer{
   	flex-wrap: wrap;
   	justify-content: stretch;
   	margin: auto;
+  	
   	 
 }
 .flexitem{

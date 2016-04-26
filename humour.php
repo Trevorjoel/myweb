@@ -16,7 +16,8 @@
 
 
 
-<h1 style="margin-right: 14%;">Humour</h1>
+<h1 style="margin-right: 14%;"><IMG style="float: left;"class="flagimage"SRC="images/do-not-enter-danger-sign-s-0906.png" ALT="theteachermarket" WIDTH=100 HEIGHT=80>Humour<IMG style="float: right;"class="flagimage"SRC="images/do-not-enter-danger-sign-s-0906.png" ALT="theteachermarket" WIDTH=100 HEIGHT=80>
+</h1>
 
 
 
@@ -71,8 +72,23 @@ his eyes."</i></p><p>
     <div class="fb-like" data-href="https://www.facebook.com/English-for-real-life-653629064700485/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
   </footer>
 </article>
+
+<article class=articleform>
+  <header>
+    <IMG style="float: right;"class="flagimage"SRC="images/label_new red.png" ALT="newbutton" WIDTH=80 HEIGHT=60>
+    <IMG style="float: right ;"class="flagimage"SRC="images/albert1.jpg" ALT="theteachermarket" WIDTH=80 HEIGHT=60>
+    <H4>Play our cunt of the year game</H4>
+    <hr>
+  </header>
+  <a href="award.php?id=8"><img src="images/game.jpg" WIDTH=150 HEIGHT=150></a>
+  <p>Simply click the link to find out whats grinding our writer Alberts gears and hear what he has to say about them....</p>
+      <br> <a href="award.php?id=8"><img style="float: right" src="images/game.jpg" WIDTH=111 HEIGHT=77 ></a><a href="award.php?id=8"><img src="images/buttonreadmore.png" WIDTH=101 HEIGHT=41 ></a>
+      </article>
+
+
 <article class=articleform>
 <IMG style="float: right;"class="flagimage"SRC="images/label_new red.png" ALT="newbutton" WIDTH=80 HEIGHT=60>
+
       <header> <h1>Cheap babysitters</h1></header>
  
       <hr>
@@ -116,17 +132,10 @@ his eyes."</i></p><p>
       <p>So what are you waiting for?</p><p>Call today, relax and set your mind at ease.</p><p>1900 666 666</p>
 
   
-
-
-          
-          
-  
-         
-          
         <p><A HREF="LINK"></A></p>
 
         <footer>
-        <p>Author: <time pubdate="pubdate">Albert</time></p>
+        <p>Author: <time pubdate="pubdate">Albert</time></p><IMG style="float: right ;"class="flagimage"SRC="images/albert1.jpg" ALT="theteachermarket" WIDTH=90 HEIGHT=60>
         
         </footer>
     </article>

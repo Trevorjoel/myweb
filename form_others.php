@@ -21,6 +21,21 @@ $extra = filter_input(INPUT_POST,'extra' ,FILTER_SANITIZE_STRING);
 
 $to = 'trevoofnorthcliffe@gmail.com';
 
+
+/* Invalid email message
+if (!filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
+	echo("<p>"."Hello,"."<br>". "$name." . "<br>" . "$email"."<br>"." Your post was a great
+				success!" . "<br>" ."Here is a copy of your message:");
+		
+}
+
+else {
+	 
+	echo "<p>"."Hello,". " $name"."<br>" . "<b>" . "$email"."</b>"." is not a valid email address. Please go back
+		and enter a valid email address."."</p>"; exit;
+
+}
+*/
 if (!empty($_FILES['files']['name'][0])) {
 	
 	$files = $_FILES ['files'];
@@ -77,7 +92,7 @@ $msg = ("<br>" ."$first_name" . "<br>" . " $last_name" .  "<br>" . " $email" . "
 
 //mail($to, $title, $msg);
 
-echo  $msg
+echo  ("$msg");
 
 
 ?>

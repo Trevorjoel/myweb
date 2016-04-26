@@ -21,7 +21,7 @@
 			<h1>Home page</h1>
 
   	<div class="textopacity">
-		<p><em>Welcome to our ever developing web site.</p> <p>Those who love music, art, 
+		<p>Welcome to our ever developing web site.</p> <p>Those who love music, art, 
 		travel and want to be a part of an intellegent and loving community have come to the right place.
 		<br>This page is where you will find updates from the entire site.</br><br>
 		You may Navigate on you own, use the search function or click on the buttons.<br>
@@ -30,18 +30,23 @@
 		
 			
  			
- 			</p> </em>
+ 			</p> 
 	</div>
 	
 
   		
     		<h1 style="font-size : 250%">Latest updates</H1>
+    		<hr>
   		
   	
   	
-	<div class="">
-  		<div class="featuresColumn">
+	
+    		 <div class="flexbox">
+    		
+    		 <div class="featuresColumn">
+    		
     		<article class=articleform>
+    		
     		      <IMG style="float: right;"class="flagimage"SRC="images/label_new red.png" ALT="newbutton" WIDTH=80 HEIGHT=60>
     		
       			<H4>Presenting the Jingles</H4>
@@ -52,10 +57,12 @@
            			Location:<br> Tallin, Estonia </b></p>
            			<p>This great four peice band out of Estonia are long time friends of mine.</p>
            			<p>They consist of Jonathan flack on guitars and vocals, Rauno Vaher on percussion, Hainn Hoppe on guitars and Tanel Liberg on 
-            			bass..<br><a href="thejingles.php?id=2"><img src="images/buttonreadmore.png" WIDTH=101 HEIGHT=41 ></a></p>
-  
-    		</article>
-  </div>
+            			bass..<br><a href="thejingles.php?id=2"><img src="images/buttonreadmore.png" WIDTH=101 HEIGHT=41 ></a></p> 
+           			
+           </article>
+           
+    		</div>
+ 
 
     <div class="featuresColumn"> 
      <article class=articleform>
@@ -78,7 +85,7 @@
     
   
     
-<div class="featuresColumn last">
+<div class="featuresColumn">
     <article class=articleform>
           <IMG style="float: right;"class="flagimage"SRC="images/label_new red.png" ALT="newbutton" WIDTH=80 HEIGHT=60>
     
@@ -89,7 +96,7 @@
         <p><b>Name:<br>Albert "Fingers" Phagtron, The Third<br>
         Location:<br>No fixed address</b>
         </p> <p>Albert "fingers" Phagtron is a freelance author who's articles will be featured in the comedy section of our website...</p>
-        <br><br><br><br><br><br><br><br><a href="albert.php?id=7"><img src="images/buttonreadmore.png" WIDTH=101 HEIGHT=41 ></a>
+        <br><a href="albert.php?id=7"><img src="images/buttonreadmore.png" WIDTH=101 HEIGHT=41 ></a>
          
     </article>
 </div>
@@ -110,8 +117,8 @@
 
     </article>
 
-  </div>
-
+ 
+</div> 
      
   <div class="featuresColumn">
   
@@ -138,7 +145,7 @@
     
 
 
-  <div class="featuresColumn last">
+  <div class="featuresColumn">
     <article class=articleform>
           <IMG style="float: right;"class="flagimage"SRC="images/label_new red.png" ALT="newbutton" WIDTH=80 HEIGHT=60>
     
@@ -147,10 +154,10 @@
       <IMG class="tst3"SRC="images/donaldtrump.jpg" ALT="Enjoy" WIDTH=150 HEIGHT=150><br/><p>
       Simply click the link to find out whats grinding our writer Alberts gears and hear what he has to say about them....
       <br><a href="award.php?id=8"><img src="images/game.jpg" WIDTH=111 HEIGHT=77 ></a>
-    </article>
-
+   </article>
+   </div>
   </div>
-</div>
+
 <?php include 'yourarticle.php';  ?>
 <?php include 'footer.php';?>
 </body>

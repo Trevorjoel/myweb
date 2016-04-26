@@ -147,6 +147,8 @@ Insert buttons below:
      </article>
     </div>
     site buttons 
+    <div>
+    <IMG style="float: right ;"class="flagimage"SRC="images/albert1.jpg" ALT="theteachermarket" WIDTH=80 HEIGHT=60>
     <IMG style="float: right ;"class="flagimage"SRC="images/russianflag.jpg" ALT="theteachermarket" WIDTH=80 HEIGHT=60>
   <IMG style="float: right;"class="flagimage"SRC="images/skypelessons.jpg" ALT="theteachermarket" WIDTH=90 HEIGHT=60>
 <IMG style="float: right;"class="flagimage"SRC="images/estonianflag.jpg" ALT="theteachermarket" WIDTH=80 HEIGHT=60>
@@ -154,6 +156,7 @@ Insert buttons below:
           <IMG style="float : ;"class="flagimage"SRC="images/cameraicon.png" ALT="theteachermarket" WIDTH=60 HEIGHT=60>
           <IMG style="float: right;"class="flagimage"SRC="images/world.png" ALT="theteachermarket" WIDTH=60 HEIGHT=60>
 <IMG style="float: right;"class="flagimage"SRC="images/label_new red.png" ALT="newbutton" WIDTH=60 HEIGHT=60>
-<IMG style="float: right;"class="flagimage"SRC="images/hazard.png" ALT="newbutton" WIDTH=60 HEIGHT=60>do-not-enter-danger-sign-s-0906
+<IMG style="float: right;"class="flagimage"SRC="images/hazard.png" ALT="newbutton" WIDTH=60 HEIGHT=60>
     <IMG style="float: right;"class="flagimage"SRC="images/do-not-enter-danger-sign-s-0906.png" ALT="theteachermarket" WIDTH=80 HEIGHT=60>
-    -->
+    
+</div>
