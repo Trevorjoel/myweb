@@ -8,7 +8,7 @@
 	</header>
 	
 	<?php include 'sidebar_right.php'; ?>
-	<br><br><br><br><br>
+	<br><br><br><br>
 	<h1 id="sub" >How to get your work online?</h1> .
 	<body>
 	<article class="articleform">
@@ -135,10 +135,10 @@ Here's how:</p>
 			
 		<div>
 
-		<label for="comments">Message to admin *</label>
+		<label for="comments">Message to admin </label>
 			 <br>  
  
-  			<textarea data-txt_gramm_id="7624fbdc-a721-e0d0-ca53-32aecb5aab08" data-gramm="" name="extra" maxlength="1000" cols="66" rows="10" placeholder="Anything you need us to know?" value="" required="required"></textarea>
+  			<textarea data-txt_gramm_id="7624fbdc-a721-e0d0-ca53-32aecb5aab08" data-gramm="" name="extra" maxlength="1000" cols="66" rows="10" placeholder="Anything you need us to know?" value="" ></textarea>
  
 				<p></p>
 			</div>
@@ -161,7 +161,7 @@ Here's how:</p>
 		<label for="first_name"><p>First Name *
 
 			<br>
-		<input name="first_name" maxlength="50" size="30" placeholder="What's up?" value="" required="required" type="text">
+		<input name="first_name" maxlength="50" size="30" placeholder="What's up?" value=""  required="required" type="text">
 
 			<br><br>
 

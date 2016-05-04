@@ -26,8 +26,9 @@
 <?php include 'sidebar_right.php';
 ?>
 <br><br><br><br>
-<h1 id="sub">Music and Art</h1> 
-
+<div class="head">
+<h1 id="music">Music and Art</h1> 
+</div>
   <div id="fb-root"></div>
 <article class="articleform">
 <IMG style="float: right;"class="flagimage"SRC="images/label_new red.png" ALT="newbutton" WIDTH=80 HEIGHT=60>
@@ -71,7 +72,7 @@
         
       <a href="gallery_aus.php?id=5"><img src="images/buttonreadmore.png" WIDTH=101 HEIGHT=41 ></a>
     </div>
-    
+   </article> 
 </div>
 
 

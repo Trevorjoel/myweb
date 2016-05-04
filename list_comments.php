@@ -55,8 +55,8 @@ if( ! is_numeric($articleid) )
    	  	 $comment = $rows ['comment'];
    	   	
    	   	 echo " <div id='comment_reply' class='comment_reply'>
-   	   	 <b style='font-size : 110%;'>$name</b><br/><br>   	   	 
-   	   	 Comment:<br> <div class= 'comment_container' <br/>$comment
+   	   	 <b style='font-size : 110%;'>$name</b><br/>   	   	 
+   	   	 <br> <div class= 'comment_container' <br/>$comment
    	   	 </div>
    	   	 </div>";
    }

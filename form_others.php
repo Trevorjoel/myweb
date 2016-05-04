@@ -81,15 +81,36 @@ if (!empty($_FILES['files']['name'][0])) {
 					}else {
 					$failed [$position] = "[{$file_name}] errored with code{$file_error}.";
 				}
+				//Needs code to indicate if more than one file ext fails to load
 			}else {
-			echo "<p>$file_name file extension {$file_ext}, is not permitted! <br>Please press the back button and ensure you have .jpg .jpeg .png files only.<br>Your text will
-			still be in the text boxes.</p>";
+			echo '<img src="images/warning.png" WIDTH=100 HEIGHT=100 ></a>'.'<p style="color:red">$file_name <br> file extension 
+			(.{$file_ext}), is not permitted!</p><p> <br>Ensure you have <b>.jpg .jpeg .png </b>files only. 
+			Please press the back button.<br>Your text will still be in the text boxes.</p>';
 			echo ('<br>'.'<a style="cursor:pointer" onclick="history.go(-1);return true;" rel=nofollow”> <img src="images/back_button_orange_1358241199.png"></a>');
 			exit;
 			}
 		}
+		
+		// Invalid email message
+		if (!filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
+			mail($to, $title, $msg);
+			echo("<p>"."Hello,<br> "."$first_name " . "$last_name"."<br>"." Your article was a
+				success!" . "<br>" ."Here is a copy of your message:"."<b>$msg</b>");
+				
+		}
+		
+		else {
+		
+			 
+			echo '<a href=><img src="images/warning.png" WIDTH=100 HEIGHT=100 ></a>'."<p>"."Hello,<br>". 
+			" $first_name " . "$last_name<br>"."<b>$email</b>"." is not a valid email address. <br>
+			Please press the back button and enter a valid email address.
+			<br>Your text will still be in the text boxes.</p>'"."</p>"."<a style='cursor:pointer' onclick='history.go(-1);return true;' rel=nofollow'> 
+			 		<img src='images/back_button_orange_1358241199.png'></a>');"; exit;
+		
+		}
 		if (!empty($uploaded)){
-			print_r($uploaded);
+			print ("Your images have been uploaded");
 				
 		}
 		
@@ -100,27 +121,13 @@ if (!empty($_FILES['files']['name'][0])) {
 	}
 
 	
-// Invalid email message
-if (!filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
-	    mail($to, $title, $msg);
-		echo("<p>"."Hello,"."<br>". "$first_name." . "<br>" . "$email"."<br>"." Your post was a great 
-				success!" . "<br>" ."Here is a copy of your message:");
-		 
-	} 		
-	
-	else {
-		
-	    
-		echo "<p>"."Hello,". " $first_name"."<br>" . "<b>" . "$email"."</b>"." is not a valid email address. Please go back
-		and enter a valid email address."."</p>"; exit;
-		
-	}
+
 	
 
 
 
 
-echo  ("$msg");
+//echo  ("$msg");
 ?>
 <div  class="back">
  

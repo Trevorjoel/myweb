@@ -13,7 +13,11 @@
   
 <?php include 'sidebar_right.php'; ?>
 <br><br><br><br>
-<h1 style="margin-right: 14%;";>Travels adventures and stories</h1>
+<div id="head_travel">
+<h1 id="travel">Travels, </h1> 
+<h1 id="adventures">Adventures, </h1> 
+<h1 id="stories">Stories! </h1> 
+</div>
 
 
 

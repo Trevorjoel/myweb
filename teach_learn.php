@@ -26,8 +26,9 @@
     
 
   <br><br><br><br>
-    <h1 style="margin-right: 14%;";>Teach, learn and share</h1>
-    
+  <div id="head_teach">
+    <h1 id="teach";>Teach, learn and share</h1>
+    </div>
 
  
    

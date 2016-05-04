@@ -25,8 +25,10 @@
 
 
     <br><br><br><br>
-    <h1 style="margin-right: 14%;">Marketplace</h1>
-
+    <div id="head_marketplace">
+    
+    <h1 id="marketplace">Marketplace</h1>
+</div>
 
 <article class=articleform>
 

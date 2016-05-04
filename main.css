@@ -1,5 +1,8 @@
 a  {color: #500B0B; 
 }
+a:visited{
+	font-weight: bolder;
+}
 
 body {
       margin: 0;
@@ -7,7 +10,7 @@ body {
       background: none; 
     }
 body { background-repeat: repeat-y; 
-  background-attachment: fixed; 
+  background-attachment: ; 
   background-image:  url("images/old-grunge-vector-background.jpg");
   margin-left: 1cm; margin-right: 1cm;
 }
@@ -42,6 +45,7 @@ div#bret {
     border-style: inset; 
     border-radius: 0px;
 }
+
     
 em {  
   font-size: 115%;
@@ -65,9 +69,140 @@ h1 { color: #500B0B;
   padding: 10px;
 
 }
+.head{
+	background-image: url("images/music1a.jpg");
+	background-position:top;
+	background-repeat:repeat-n;
+	height:320px;
+	width:86.2%;
+	margin-left:10px;
+	margin-top: -.5%;
+	border-radius: 10px;
+	
+}
+
+div#head_travel{
+	background-image: url("images/coralbay.jpg");
+	background-position:bottom;
+	background-repeat:repeat-n;
+	height:320px;
+	width:84.2%;
+	margin-left:10px;
+	margin-top: -.5%;
+	border-radius: 10px;
+	width:86.2%;
+}
+div#head_marketplace{
+	background-image: url("images/gold.jpg");
+	background-position:bottom;
+	background-repeat:repeat-n;
+	height:320px;
+	width:84.2%;
+	margin-left:10px;
+	margin-top: -1.5%;
+	border-radius: 10px;
+	width:86.2%;
+}
+div#head_teach{
+	background-image: url("images/board.jpg");
+	background-position:bottom;
+	background-repeat:repeat-n;
+	height:320px;
+	width:84.2%;
+	margin-left:10px;
+	margin-top: -1.5%;
+	border-radius: 10px;
+	width:86.2%;
+}
+h1#teach{
+	color:white;
+	
+	font-size: 420%;
+	margin-left:0%;
+	margin-top: 0px;
+	padding-top:14px;
+	padding-bottom:0px;
+	width:86.2%;
+	 background: rgb(204, 204, 204);  /*Fallback for older browsers without RGBA-support */
+      background: rgba(204, 204, 204, 0.5);
+    border-radius: 5px;
+	
+}
+h1#marketplace {
+	color:#8e6919;
+	
+	font-size: 570%;
+	margin-left:0%;
+	margin-top: 0px;
+	padding-top:14px;
+	padding-bottom:0px;
+	width:26.5%;
+	 background: rgb(204, 204, 204);  /*Fallback for older browsers without RGBA-support */
+      background: rgba(204, 204, 204, 0.5);
+    border-radius: 5px;
+   
+      
+}
+h1#music {
+	color:black;
+	font-size: 370%;
+	margin-left:50.6%;
+	margin-top: 0px;
+	padding-top:74px;
+	padding-bottom:0px;
+	width:30%;
+	 background: rgb(204, 204, 204);  /*Fallback for older browsers without RGBA-support */
+      background: rgba(204, 204, 204, 0.5);
+    border-radius: 5px;
+   
+      
+}
 h1#sub{
   	margin-left: 0%;
   	margin-right: 14%;
+}
+h1#travel {
+	color:#e3f0f8;
+	font-size: 560%;
+	margin-left:10%;
+	margin-top: 0px;
+	padding-top:20px;
+	padding-bottom:0px;
+	width:50% ;
+    border-radius: 5px;
+      background: rgb(04, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(04, 204, 204, 0.4); */
+    border-radius: 10px;
+    width:30%;
+}
+h1#adventures{
+	color:#167AA7;
+	font-size: 390%;
+	margin-left:28.6%;
+	margin-top: 0px;
+	padding-top:4px;
+	padding-bottom:0px;
+	width:30%;
+    border-radius: 50px;
+    background: rgb(184, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(164, 204, 204, 0.4);
+    border-radius: 10px;
+    width:30%;
+}
+
+h1#stories{
+	color:#0003ff;
+	font-size: 390%;
+	margin-left:60%;
+	margin-top: 0px;
+	padding-top:4px;
+	padding-bottom:0px;
+	width:30%;
+    border-radius: 5px;
+    background: rgb(04, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(904, 904, 404, 0.3);
+    border-radius: 10px;
+    width:20%;
 }
 h2 { font-family: Firefly; 
   color: #F00C0C; 
@@ -161,7 +296,7 @@ a.active {
     }
     
 .articleform { 
-	background-color: #F8F8F8;
+	background-color: #F6ECBC;
     padding: 20px;
     border: 5px solid #008000 ; 
     border-color: rgba(113, 7, 7, 0.95); 
@@ -171,7 +306,7 @@ a.active {
     font: black;  
     float:left;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
+   
     width:81%;
     
 }
@@ -226,6 +361,8 @@ article#footer{
 	width:50%;
 	padding: 10px;
 	margin-top:bottom 15px;
+	background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+      background: rgba(204, 204, 204, 0.5);
 	
 	
 	
@@ -239,6 +376,8 @@ article#footer{
 	margin-top:15px;
 	font-family:  ;
 	font-size:150%;
+	background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+      background: rgba(204, 204, 204, 0.5);
 }
 .comments-wrapper-heading{
 	font-family: Nickainley ; 
@@ -284,20 +423,19 @@ article#footer{
     overflow: hidden;
     
   }
-  .container_1 input#search{                                 /* search bar */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
-  border-radius: 20px;
-  width: 150px;
-  height: 20px;
-  border: solid white: 10px;
-  padding: none;
-  font-size: 10pt;
-  float: right;
-  padding-left: 10px;
+  .search{                                 /* search bar */
+
+  border: 2px solid #F0DB70 ;  
+    border-style: outset;
+  width: 100%;
+  height: 25px;
+  font-size: 11pt;
+  float: none ;
+  padding: 2px;
   overflow: scroll;
-  width: 180px;
   vertical-align: middle;
   white-space: nowrap;
+  margin-right: 10px;
   
 }
 
@@ -306,6 +444,7 @@ article#footer{
   border-radius: 0px;
   float: right;
   position: left;
+  margin-top:5%;
 
 }
 .featuresColumn {
@@ -423,49 +562,116 @@ article#footer{
 .last {
 	margin-right: 0%;
 }
+.nav #foots{
+	height: 61px;
+	padding-bottom:8px;
+	border-radius:8px;
+}
+.nav #footsred{
+	
+	background: #0C45A7;
+	height: 61px;
+	padding-bottom:8px;
+	border-radius:8px;
+}
 
 .nav ul {
       list-style: inside;
       text-align: justify;
-      margin-top:2px;
-      padding-top: 10px;
-      background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+      margin-bottom:5px;
+      margin-top:0px;
+      margin-left:5px;
+      padding-top: 0%;
+	  padding-bottom: 0%;
+     background: rgb(204, 204, 204);  /*Fallback for older browsers without RGBA-support */
       background: rgba(204, 204, 204, 0.5);
-      background-image:url("images/old-grunge-vector-background.jpg");
-      border: solid white: 5px;
-      background-color: none; opacity: .9;
+      background-image: url("images/wood_grain_texture_4_by_hyenacub_stock-d3a1cr8.jpg");
+      background-position:center;
+      background-repeat: repeat-n;      
+      border: 1px solid white ; 
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 3px 10px 0 rgba(0, 0, 0, 0.29);
+   	padding-left: 2px;
+   	padding-right:2px;
+      background-color: #F8F8F8; opacity: .99;
       
       margin-left: 10px;
-      padding-bottom: 5px;
+      
+     
       position: fixed;
-      padding: 10px;
-      float: none;
-      border-radius: 50px;
-      width:78.7%;
+      float: left;
+      border-radius: 2px;
+      border-bottom-right-radius: 0px;
+      width:93.4%;
 
       }
     
  .nav li {
       font-family: 'Monastic Pro', sans-serif;
-      font-size: 112%;
+      font-size: 96.9%;
       line-height: 100px;
-      height: 40px;
+      height: 45px;
       border: 0px solid #888;
       line-height: 40px;
-      padding: 3px;
+      padding: 9px;
       border-collapse: justify;
       text-align: justify;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.49);
-      border-radius: 400px;
-      background-color: none;
-      content: left;
-    }
-
-    .nav li {
+      box-shadow: 0 10px 36px rgba(0, 0, 0, 0.4), 0 3px 10px 0 rgba(0, 0, 0, 0.29);*/
+      border-radius: 10px;
+      padding-left:5px;
+      content: center;
+      margin:2.1px;
+      margin-left:0px;
       display: inline-block;
       text-align: justify;
+      background-image: url("images/old-grunge-vector-background.jpg");
+      float:left;
+      background-position: bottom;
+      
+      
 
     }
+    .nav #ul_sides{
+    font-family: 'Monastic Pro', sans-serif;
+      font-size: 100%;
+    list-style: inside;
+    border-radius: 2px;
+      text-align: justify;
+      margin-bottom:5px;
+      margin-top:10px;
+      margin-left:100px;
+      padding-top: 0%;
+	  padding-bottom: 0%;
+     background: rgb(204, 204, 204);  /*Fallback for older browsers without RGBA-support */
+      background: rgba(204, 204, 204, 0.5);
+      background-image: url("images/wood_grain_texture_4_by_hyenacub_stock-d3a1cr8.jpg");
+      background-position:center;
+      background-repeat: repeat-n;
+      display:table-column;
+      border: 1px solid white ; 
+       
+      box-shadow: 0 10px 36px rgba(0, 0, 0, 0.4), 0 3px 10px 0 rgba(0, 0, 0, 0.29);
+   	padding-left: 2px;
+   	padding-right:2px;
+      background-color: #F8F8F8; opacity: .99;
+      
+      margin-left: 10px;
+      position: fixed;
+      float: right;
+      
+      width:12.1%;
+    
+	
+	
+}
+    .nav #li_sides{
+    
+	font-family: 'Monastic Pro', sans-serif;
+      font-size: 100%;
+      height: 18px;
+      line-height: 10px;
+      border-radius: 2px;
+}
+   
     .nav a {
       text-decoration: none;
       color: inherit;
@@ -473,26 +679,47 @@ article#footer{
     .nav a:hover {
       background-color: ;
     }
-    
-        
-.sidebar_right{
-	background-color:#EAD579 ;
-	background-image: url("images/old-grunge-vector-background.jpg");
-	background-position: top;
+    .button {
     border: 5px solid #008000 ; 
     border-color: rgba(113, 7, 7, 0.95); 
+    border-style: outset;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.49);
+    margin-left:42%;
+    padding:10px;
+    postition: center;
+  font-weight: bolder;
+  font-style: inherit;
+  border-radius: 10px;
+  font-family:;
+    color: #500B0B;
+    font-size: 135%;
+    }
+        
+.sidebar_right{
+	/*background-color: #F8F8F8; opacity: .99;
+	/*background-image: url("images/books.jpg");*/
+	background-position: center;
+    
+     
+    /*
+    border: 5px solid #008000 ; 
+    border-top-style: hidden;
+    border-color: rgba(113, 7, 7, 0.95); 
     border-style: inset; 
-    border-radius: 10px;
-    margin-left: 82%; 
-    Margin-right: 10px;
-    margin-top:190px;
+    */
+    border-radius:10px;
+    margin-left: 80.7%; 
+    Margin-right: 0px;
+    margin-top:2.7%;
     position: fixed;
     padding:10px;
     font: black;  
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    box-shadow-top:none;
     float: right;
-    width:12%;
+    width:14%;
+    
+     
 	
 }
 

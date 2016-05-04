@@ -130,18 +130,23 @@
 					break;
 					
 			default:		
-					print("Because I said so");
+					print("<br>"."<p>"."Because I said so"."</p>");
  }
- print strtoupper ("<h3>Press ctrl + R to play again</h3>");
+ ?>
+ <br><input class="button" type="button" value="PLAY AGAIN!" onclick="location.reload();">
+ 
+ 
 
-           
+				<?php include 'list_comments.php';
       			include 'comment.php'; 
-      			include 'list_comments.php';
+      			?>
+      			
 				 
-?>
+
  
 </article>
 </body>
+<?php include 'footer.php';?>
 	</html>
 
 	

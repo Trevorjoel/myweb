@@ -27,24 +27,43 @@
 		You may Navigate on you own, use the search function or click on the buttons.<br>
 		More about that and everything else you may need here:<br><a style="float:left;"href="about.php"><img src="images/buttonreadmore.png" WIDTH=101 HEIGHT=41 ></a><br><br>
 			I hope you enjoy my work and share your ideas with me.<br>
-		
-			
- 			
- 			</p> 
-	</div>
-	
-
-  		
+		</p>
+		</div>
+	  		
     		<h1 style="font-size : 250%">Latest updates</H1>
-    		<hr>
-  		
-  	
-  	
+    		<hr> 		  	
 	
     		 <div class="flexbox">
+    		 		  <article style="width:100%;" class=articleform>
+
+  <header> <H4>Site testers!</H4></header>
+  <hr>
+  <p>Published: <time pubdate="pubdate">Date</time></p>
+ <IMG class="tst3"SRC="images/notice.png" ALT="erlbanner" WIDTH=328 HEIGHT=195>
+  <p>This site is in the test phase. <br>You have been chosen to test my site. <br>Please try all the features and report back to me.<br>
+You can view the code here: <a href="https://github.com/Trevorjoel/myweb">https://github.com/Trevorjoel/myweb</a>
+I'm looking for various issues not limited to the following.<br><br>
+	1) Can you hack it? (developers). SQL injections particularly can you insert data to my base (sexy time) can you somehow get a script to run on the page, spam me or any other nasties I might not be aware of.<br><br>
+	2) Style (designers), Are there any obvious problems with the design, functionality and look of the site?<br><br>
+	3) Feeling. (Everyone/designers) is it nice upon the eyes?  Does it have the appearance of an intelligent place to gather information, entertain yourself.<br><br>
+	4) Functionality/features/content. Are there any extra features you would like  to see? Is the content interesting or would you like to see something else (yes I'm waiting for more Travel and community content). <br>Are there any broken links or issues I may not have seen?<br><br>
+	5) Writing. How do you like the writing style? Are there any obvious spelling/grammatical errors? What about the format in the articles, is there any guides you think I should read to improve things?<br>
+  <em><br><br>Notice: Be sure the url says index.php?id=11 if you want to make a comment below. 
+  <br>Notice: The user uploads forms are incomplete. No data will be transfered through the forms yet.
+  <br>Notice: I may be giving you the temporary URL in hopes you will write something for me. You may negotiate a deal in exchange for your efforts, try me.</em>
+  <br>You can use the comment form below to message me your thoughts as any feedback is much appreciated.</p>      
+        <br>
+        
+   <p>Author: <time pubdate="pubdate">Trevor</time></p>
+<hr>
+  <footer>
+  </footer>
+
+            <?php include 'list_comments.php'; include 'comment.php'; ?>
+</article>
     		
     		 <div class="featuresColumn">
-    		
+       		
     		<article class=articleform>
     		
     		      <IMG style="float: right;"class="flagimage"SRC="images/label_new red.png" ALT="newbutton" WIDTH=80 HEIGHT=60>
@@ -95,7 +114,7 @@
 
         
 
-        <br><a href="albert.php?id=7"><img src="images/buttonreadmore.png" WIDTH=101 HEIGHT=41 ></a>
+        <br><a href="learning-how-to-learn.php?id=9"><img src="images/buttonreadmore.png" WIDTH=101 HEIGHT=41 ></a>
          
     </article>
 </div>

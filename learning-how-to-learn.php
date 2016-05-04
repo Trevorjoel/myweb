@@ -63,5 +63,6 @@
            
             <?php include 'list_comments.php'; include 'comment.php'; ?>
     </article>
+    <?php include 'footer.php';?>
     </body>
     </html>

@@ -80,3 +80,4 @@
     
   </footer>
 </article>
+<?php include 'footer.php';?>
