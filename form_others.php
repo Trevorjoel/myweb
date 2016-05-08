@@ -32,11 +32,6 @@ $article_body = $_POST ['article_body'];
 $links = $_POST ['links'];
 $extra = $_POST ['extra'];
 
-$msg = ("<br>" . "$first_name" . "<br>" . " $last_name" . "<br>" . " $email" . "<br>" . "  $publish_area " .
-		"<br>" . " $title " . "<br>" . " $article_body" . "<br>" . " $links" . "<br>" . " $extra" ."<br>");
-$msg_mail = ("$first_name\n"  . " $last_name\n" . " $email\n" . "  $publish_area\n " .
-		   " $title \n" .  " $article_body\n" . " $links\n" . " $extra\n");
-
 
 $first_name = filter_input ( INPUT_POST, 'first_name', FILTER_SANITIZE_STRING );
 $last_name = filter_input ( INPUT_POST, 'last_name', FILTER_SANITIZE_STRING );
@@ -46,6 +41,11 @@ $title = filter_input ( INPUT_POST, 'title', FILTER_SANITIZE_STRING );
 $article_body = filter_input ( INPUT_POST, 'article_body', FILTER_SANITIZE_STRING );
 $links = filter_input ( INPUT_POST, 'links', FILTER_SANITIZE_URL );
 $extra = filter_input ( INPUT_POST, 'extra', FILTER_SANITIZE_STRING );
+
+$msg = ("<br>" . "$first_name" . "<br>" . " $last_name" . "<br>" . " $email" . "<br>" . "  $publish_area " .
+		"<br>" . " $title " . "<br>" . " $article_body" . "<br>" . " $links" . "<br>" . " $extra" ."<br>");
+$msg_mail = ("$first_name\n"  . " $last_name\n" . " $email\n" . "  $publish_area\n " .
+		" $title \n" .  " $article_body\n" . " $links\n" . " $extra\n");
 
 $to = 'trevoofnorthcliffe@gmail.com';
 
@@ -108,7 +108,7 @@ if (! empty ( $_FILES ['files'] ['name'] [0] )) {
 	
 	if (! filter_var ( $email, FILTER_VALIDATE_EMAIL ) === false) {
 		
-		echo ("<p>" . "Hello,<br> " . "$first_name " . "$last_name" . "<br>" . " Your article was a
+		echo ("<p>" . "Hello,<br> " . "$first_name " . "$last_name" . "<br>" . " Your upload was a
 				success!" . "<br>" . "Here is a copy of your message:" . "<b>$msg</b>");
 	} 
 

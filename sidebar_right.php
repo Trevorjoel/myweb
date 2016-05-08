@@ -4,29 +4,28 @@
 
 
    <br>
-   
-   
 
-   <div class="nav">
-   <ul id="ul_sides" style="margin-left: .6%; margin-top:5px">
-       <li id="li_sides"><a href="index.php?id=11">Updates</a></li>
-       
-        <li id="li_sides"><a href="thejingles.php?id=2">The Jingles</a></li>
-        
-        <li id="li_sides"><a href="travel.php">Australia Gallery</a>
-       </li>
-        <li id="li_sides"><a href="underconstruction.php">Community</a></li>
-       
-        
-        <li id="li_sides"><a href="marketplace.php">Marketplace</a></li>
-        
-        <li id="li_sides"><a href="humour.php">Just laughs</a></li>
-        <li id="li_sides"><a href="#">Contact</a></li>        
-        <li id="li_sides"><a href="about.php">About</a></li>    
-     </ul>
-    </div>
-     </div>
-     </div>
+
+
+	<div class="nav">
+		<ul id="ul_sides" style="margin-left: .6%; margin-top: 5px">
+			<li id="li_sides"><a href="index.php?id=11">Updates</a></li>
+
+			<li id="li_sides"><a href="thejingles.php?id=2">The Jingles</a></li>
+
+			<li id="li_sides"><a href="travel.php">Australia Gallery</a></li>
+			<li id="li_sides"><a href="underconstruction.php">Community</a></li>
+
+
+			<li id="li_sides"><a href="marketplace.php">Marketplace</a></li>
+
+			<li id="li_sides"><a href="humour.php">Just laughs</a></li>
+			<li id="li_sides"><a href="#">Contact</a></li>
+			<li id="li_sides"><a href="about.php">About</a></li>
+		</ul>
+	</div>
+</div>
+     <div></div>
 <!--  
 <a href="musicandart.php"><h4 id= h4sidebar_right style= "font-size: 110%">Music/Art</h4></a>
 <a href="thejingles.php?id=2">The jingles</a><br>
