@@ -12,7 +12,7 @@
 </head>
 
 
-<body>
+<body id="background_musicandart">
 <div>
 
 <script>(function(d, s, id) {
@@ -25,7 +25,7 @@
 
 <?php include 'sidebar_right.php';
 ?>
-<br><br><br><br>
+<br><br><br>
 <div class="head">
 <h1 id="music">Music and Art</h1> 
 </div>

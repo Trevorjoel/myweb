@@ -8,7 +8,7 @@
    
 
    <div class="nav">
-   <ul id="ul_sides">
+   <ul id="ul_sides" style="margin-left: .6%; margin-top:5px">
        <li id="li_sides"><a href="index.php?id=11">Updates</a></li>
        
         <li id="li_sides"><a href="thejingles.php?id=2">The Jingles</a></li>

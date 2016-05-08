@@ -14,26 +14,26 @@
 
 
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
+	<script type="text/javascript">(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
   js.src = "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
- 
-<br><br><br><br>
+
+	<br><br><br><br>
 <h1>English For Real Life</h1>
 
 
-<article class=articleform>
-<IMG style="float: right ;"class="flagimage"SRC="images/russianflag.jpg" ALT="theteachermarket" WIDTH=80 HEIGHT=60>
-  <IMG style="float: right;"class="flagimage"SRC="images/skypelessons.jpg" ALT="theteachermarket" WIDTH=90 HEIGHT=60>
+<article class="articleform">
+<img style="float: right;"class="flagimage"src="images/russianflag.jpg" alt="theteachermarket" width="80" height="60">
+  <img style="float: right;"class="flagimage"src="images/skypelessons.jpg" alt="theteachermarket" width="90" height="60">
 
-<IMG style="float: right;"class="flagimage"SRC="images/label_new red.png" ALT="newbutton" WIDTH=80 HEIGHT=60>
-  <header> <H4>English lessons via skype</H4></header>
+<img style="float: right;"class="flagimage"src="images/label_new red.png" alt="newbutton" width="80" height="60">
+  <header> <h4>English lessons via skype</h4></header>
   <hr>
- <IMG class="tst3"SRC="images/erlbanner1.jpg" ALT="erlbanner" WIDTH=328 HEIGHT=195>
+ <img class="tst3"src="images/erlbanner1.jpg" alt="erlbanner" width="328" height="195">
   
 
     <p>Published: <time pubdate="pubdate">18th Jan 2016</time></p>
@@ -42,7 +42,7 @@
        
         <br>
         <p><b>Name:<br>English For Real Life<br>
-          Location:<br> Moscow, Russia</p></b>
+          Location:<br> Moscow, Russia</b></p><b></b>
   <p>English For Real Life is run by Trevor from Australia, the creator of this website who has many years experience teaching English to Adults and to children of all ages.</p>
 
   <p>My courses are tailored to the individual with an emphasis on learning for real life situations whether they are in a business, travel or conversational context.<br> </p>  
@@ -60,7 +60,7 @@ Each lesson we choose a topic to speak about. After each lesson I give feedback 
 Per lesson:<br>
 Three-month package (2 lessons per week):<br></p>
 
-<b><p>2) Regular learner.</b><br></p>
+<b><p>2) Regular learner.</p></b><br><p></p>
 <p>Focus: Reading, writing, listening, speaking, grammar.<br>
 First 60-minute lesson/level assessment half price if you decide to take the three-month course. <br>We find your level and select the materials to work 
 through systematically focusing on the things you need to improve the most.</p><p>
@@ -68,7 +68,7 @@ Price:<br>
 Per lesson (2 lessons per week):<br>
 Three-month package:<br></p>
 
-<b><p>3) Serious learner (Fully tailored/test preparation).</b><br>
+<b><p>3) Serious learner (Fully tailored/test preparation).</p></b><br>
 <p>Focus: Test strategy, reading, writing, listening, speaking, grammar and anything you like.<br>
 First 90-minute lesson/level assessment Free if you decide to take the three-month course. <br>This is tailored for the serious learner and those who know exactly
  what they need, with more flexibility in class re-scheduling to suit the busy student. <br>
@@ -78,7 +78,7 @@ First 90-minute lesson/level assessment Free if you decide to take the three-mon
 Prices:<br>
 Per lesson:<br>
 Three-month package (2 lessons per week):<br>
-<p><b>4) Proofreading documents.</b></p>
+</p><p><b>4) Proofreading documents.</b></p>
 <p>I can edit your documents.<br> Prices are negotiable.</p>
 
 
@@ -86,7 +86,7 @@ Three-month package (2 lessons per week):<br>
 <br>Good luck with your learning.<br>Trevor</p>
 <hr>
 
-</p> <div class="fb-like" data-href="https://www.facebook.com/English-for-real-life-653629064700485" data-width="100" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" style="float: right";></div>
+<p></p> <div class="fb-like" data-href="https://www.facebook.com/English-for-real-life-653629064700485" data-width="100" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" style="float: right";></div>
 <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
 <div id="SkypeButton_Call_trevor.garrity_1" style="border: none; float: none; border-radius: none; padding: none; margin: none;">
  <script type="text/javascript">
@@ -97,13 +97,13 @@ Three-month package (2 lessons per week):<br>
  "imageSize": 24
  });
  </script>
-    <p><A HREF="LINK"></A></p>
+    <p><a href="LINK"></a></p>
 
   <footer>
   </footer>
 
             <?php include 'list_comments.php'; include 'comment.php'; ?>
-</article>
+</div></article>
 
 </body>
 

@@ -24,15 +24,16 @@
         <li class="Marketplace"><a href="marketplace.php">Marketplace</a></li>
         <li class="Just laughs"><a href="humour.php">Just laughs</a></li>
         <li class="contact"><a href="#">Contact</a></li>        
-        <li class="About"><a href="about.php">About</a></li>  
-             
-     <li>
-	 <form style="float: right" >
-                                <input search" type="text" placeholder="Search coming soon" style="padding-right:9.7px" value="" required="required" >
-                                <br><input type="button" value="Search">
-		</form>
-		</li>
-      </ul>
+        <li class="About"><a href="about.php">About</a></li>
+
+			<li>
+				<form style="float: right" action="">
+					<input search" type="text" placeholder="Search coming soon"
+						style="padding-right: 9.7px" value="" required="required"> <br>
+					<input type="button" value="Search">
+				</form>
+			</li>
+		</ul>
 		
   </div>
  

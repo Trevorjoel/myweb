@@ -25,10 +25,14 @@
      <?php include 'sidebar_right.php'; ?>
     
 
-  <br><br><br><br>
+  <br><br><br>
   <div id="head_teach">
     <h1 id="teach";>Teach, learn and share</h1>
+    <p id="teach_text">Videos</p>
+    <p id="teach_text">Tutorials</p>
+    <p id="teach_text">Tips</p>
     </div>
+
 
  
    

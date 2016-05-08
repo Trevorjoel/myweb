@@ -9,7 +9,7 @@
 <?php include 'header.php';?>
 </head>
 
-<body>
+<body id="background_marketplace">
 <?php include 'sidebar_right.php'; ?>
 
 
@@ -24,7 +24,7 @@
   
 
 
-    <br><br><br><br>
+    <br><br><br>
     <div id="head_marketplace">
     
     <h1 id="marketplace">Marketplace</h1>

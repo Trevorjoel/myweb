@@ -10,28 +10,28 @@
     -->
     <!-- Short article form -->
     
-    <article class=articleform>
+    <article class="articleform">
   <header>
-    <IMG style="float: right;"class="flagimage"SRC="images/label_new red.png" ALT="newbutton" WIDTH=80 HEIGHT=60>
-    <IMG style="float: right;"class=""SRC="images/.jpg" ALT="theteachermarket" WIDTH=80 HEIGHT=60>
-    <H4>Short form</H4>
+    <img style="float: right;"class="flagimage"src="images/label_new red.png" alt="newbutton" width="80" height="60">
+    <img style="float: right;"class=""src="images/.jpg" alt="theteachermarket" width="80" height="60">
+    <h4>Short form</h4>
     <hr>
   </header>
-  <IMG class="tst3"SRC="images/.jpg" ALT="erlbanner" WIDTH=328 HEIGHT=195>
-  <a href="albert.php?id=7"><img src="images/buttonreadmore.png" WIDTH=101 HEIGHT=41 ></a>
+  <img class="tst3"src="images/.jpg" alt="erlbanner" width="328" height="195">
+  <a href="albert.php?id=7"><img src="images/buttonreadmore.png" width="101" height="41" alt=""></a>
   </article>
   
   <!-- Long article form -->
   
-  <article class=articleform>
-<IMG style="float: right ;"class="flagimage"SRC="images/.jpg" ALT="theteachermarket" WIDTH=80 HEIGHT=60>
-  <IMG style="float: right;"class="flagimage"SRC="images/.jpg" ALT="theteachermarket" WIDTH=90 HEIGHT=60>
+  <article class="articleform">
+<img style="float: right;"class="flagimage"src="images/.jpg" alt="theteachermarket" width="80" height="60">
+  <img style="float: right;"class="flagimage"src="images/.jpg" alt="theteachermarket" width="90" height="60">
 
-<IMG style="float: right;"class="flagimage"SRC="images/label_new red.png" ALT="newbutton" WIDTH=80 HEIGHT=60>
-  <header> <H4>Long form</H4></header>
+<img style="float: right;"class="flagimage"src="images/label_new red.png" alt="newbutton" width="80" height="60">
+  <header> <h4>Long form</h4></header>
   <hr>
   <p>Published: <time pubdate="pubdate">18th Jan 2016</time></p>
- <IMG class="tst3"SRC="images/.jpg" ALT="erlbanner" WIDTH=328 HEIGHT=195>
+ <img class="tst3"src="images/.jpg" alt="erlbanner" width="328" height="195">
   
 
     
@@ -40,11 +40,11 @@
       
         <br>
         <p><b>Name:<br>Text<br>
-          Location:<br> Text</p></b>
+          Location:<br> Text</b></p><b></b>
    <p>Author: <time pubdate="pubdate">Trevor</time></p>
 <hr>
 Insert buttons below:
-</p> <div class="fb-like" data-href="https://www.facebook.com/English-for-real-life-653629064700485" data-width="100" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" style="float: right";></div>
+<p></p> <div class="fb-like" data-href="https://www.facebook.com/English-for-real-life-653629064700485" data-width="100" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" style="float: right";></div>
 <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
 <div id="SkypeButton_Call_trevor.garrity_1" style="border: none; float: none; border-radius: none; padding: none; margin: none;">
  <script type="text/javascript">
@@ -63,7 +63,7 @@ y
   </footer>
 
             <?php include 'list_comments.php'; include 'comment.php'; ?>
-</article>
+</div></article>
 
 <!-- Artist Gallery photos only 
 
@@ -130,33 +130,37 @@ Insert buttons below:
 <!-- Home page boxes -->
 
 <div class="featuresColumn"> 
-     <article class=articleform>
-           <IMG style="float: right;"class="flagimage"SRC="images/label_new red.png" ALT="newbutton" WIDTH=80 HEIGHT=60>
+     <article class="articleform">
+           <img style="float: right;"class="flagimage"src="images/label_new red.png" alt="newbutton" width="80" height="60">
      
-      <H4>Title</H4>
+      <h4>Title</h4>
       <hr>
-        <IMG class="tst3"SRC="images/.jpg" ALT="erlbanner" WIDTH=250 HEIGHT=146>
-       <IMG style="float: right ;"class="flagimage"SRC="images/.jpg" ALT="theteachermarket" WIDTH=80 HEIGHT=60>
-        <IMG style="float: right;"class="skype_image"SRC="images/.jpg" ALT="theteachermarket" WIDTH=90 HEIGHT=60>
-        <b><p>Name:<br>Text<br>
-          Location:<br> Text</p></b>
+        <img class="tst3"src="images/.jpg" alt="erlbanner" width="250" height="146">
+       <img style="float: right;"class="flagimage"src="images/.jpg" alt="theteachermarket" width="80" height="60">
+        <img style="float: right;"class="skype_image"src="images/.jpg" alt="theteachermarket" width="90" height="60"> <b><p>
+				Name:<br>Text<br> Location:<br> Text
+			</p></b>
 
-        <p>Text</p><p>
+		<p>Text</p>
+		<p>
 
-        Text<br><a href="english-for-real-life.php?id=3"><img src="images/buttonreadmore.png" WIDTH=101 HEIGHT=41 ></a>  </p>
-     </article>
+			Text<br>
+			<a href="english-for-real-life.php?id=3"><img
+				src="images/buttonreadmore.png" width="101" height="41" alt=""></a>
+		</p>
+	</article>
     </div>
     site buttons 
     <div>
-    <IMG style="float: right ;"class="flagimage"SRC="images/albert1.jpg" ALT="theteachermarket" WIDTH=80 HEIGHT=60>
-    <IMG style="float: right ;"class="flagimage"SRC="images/russianflag.jpg" ALT="theteachermarket" WIDTH=80 HEIGHT=60>
-  <IMG style="float: right;"class="flagimage"SRC="images/skypelessons.jpg" ALT="theteachermarket" WIDTH=90 HEIGHT=60>
-<IMG style="float: right;"class="flagimage"SRC="images/estonianflag.jpg" ALT="theteachermarket" WIDTH=80 HEIGHT=60>
-<IMG style="float: right;"class="flagimage"SRC="images/australianflag.jpg" ALT="theteachermarket" WIDTH=80 HEIGHT=60>
-          <IMG style="float : ;"class="flagimage"SRC="images/cameraicon.png" ALT="theteachermarket" WIDTH=60 HEIGHT=60>
-          <IMG style="float: right;"class="flagimage"SRC="images/world.png" ALT="theteachermarket" WIDTH=60 HEIGHT=60>
-<IMG style="float: right;"class="flagimage"SRC="images/label_new red.png" ALT="newbutton" WIDTH=60 HEIGHT=60>
-<IMG style="float: right;"class="flagimage"SRC="images/hazard.png" ALT="newbutton" WIDTH=60 HEIGHT=60>
-    <IMG style="float: right;"class="flagimage"SRC="images/do-not-enter-danger-sign-s-0906.png" ALT="theteachermarket" WIDTH=80 HEIGHT=60>
+    <img style="float: right;"class="flagimage"src="images/albert1.jpg" alt="theteachermarket" width="80" height="60">
+    <img style="float: right;"class="flagimage"src="images/russianflag.jpg" alt="theteachermarket" width="80" height="60">
+  <img style="float: right;"class="flagimage"src="images/skypelessons.jpg" alt="theteachermarket" width="90" height="60">
+<img style="float: right;"class="flagimage"src="images/estonianflag.jpg" alt="theteachermarket" width="80" height="60">
+<img style="float: right;"class="flagimage"src="images/australianflag.jpg" alt="theteachermarket" width="80" height="60">
+          <img style="float:;"class="flagimage"src="images/cameraicon.png" alt="theteachermarket" width="60" height="60">
+          <img style="float: right;"class="flagimage"src="images/world.png" alt="theteachermarket" width="60" height="60">
+<img style="float: right;"class="flagimage"src="images/label_new red.png" alt="newbutton" width="60" height="60">
+<img style="float: right;"class="flagimage"src="images/hazard.png" alt="newbutton" width="60" height="60">
+    <img style="float: right;"class="flagimage"src="images/do-not-enter-danger-sign-s-0906.png" alt="theteachermarket" width="80" height="60">
     
 </div>
