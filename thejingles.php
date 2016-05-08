@@ -48,10 +48,6 @@ include 'header.php';
 		</header>
 		<img class="tst3" src="images/jinglescasualwide.jpg" alt="Enjoy"
 			width="466" height="280">
-		<p>
-			<b>Name:<br>The Jingles<br> Location:<br> Tallin, Estonia
-			</b>
-		</p>
 
 		<p>This great four piece band out of Estonia are long time friends of
 			mine.</p>

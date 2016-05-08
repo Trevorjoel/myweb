@@ -1,12 +1,12 @@
 <html>
-<!-- Needs: To gather and display all errors before exit
+<!-- ISSUES: To gather and display all errors before exit
             Send email to user
-            Display the filenames and or thumbnails of uploaded and failed ext files
+            Display the filenames and or thumbnails of ALL uploaded and failed extentions files
             
             -->
 <head>
 
-<title>Message</title>
+<title>other uploads</title>
 
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet"
@@ -32,7 +32,11 @@ $article_body = $_POST ['article_body'];
 $links = $_POST ['links'];
 $extra = $_POST ['extra'];
 
-$msg = ("<br>" . "$first_name" . "<br>" . " $last_name" . "<br>" . " $email" . "<br>" . "  $publish_area " . "<br>" . " $title " . "<br>" . " $article_body" . "<br>" . " $links" . "<br>" . " $extra");
+$msg = ("<br>" . "$first_name" . "<br>" . " $last_name" . "<br>" . " $email" . "<br>" . "  $publish_area " .
+		"<br>" . " $title " . "<br>" . " $article_body" . "<br>" . " $links" . "<br>" . " $extra" ."<br>");
+$msg_mail = ("$first_name\n"  . " $last_name\n" . " $email\n" . "  $publish_area\n " .
+		   " $title \n" .  " $article_body\n" . " $links\n" . " $extra\n");
+
 
 $first_name = filter_input ( INPUT_POST, 'first_name', FILTER_SANITIZE_STRING );
 $last_name = filter_input ( INPUT_POST, 'last_name', FILTER_SANITIZE_STRING );
@@ -86,7 +90,7 @@ if (! empty ( $_FILES ['files'] ['name'] [0] )) {
 			} else {
 				$failed [$position] = "[{$file_name}] errored with code{$file_error}.";
 			}
-			// Needs code to indicate if more than one file ext fails to load
+			// Needs code to indicate if more than one file extention fails to load
 		} else {
 			
 			/*
@@ -103,7 +107,7 @@ if (! empty ( $_FILES ['files'] ['name'] [0] )) {
 	}
 	
 	if (! filter_var ( $email, FILTER_VALIDATE_EMAIL ) === false) {
-		mail ( $to, $title, $msg );
+		
 		echo ("<p>" . "Hello,<br> " . "$first_name " . "$last_name" . "<br>" . " Your article was a
 				success!" . "<br>" . "Here is a copy of your message:" . "<b>$msg</b>");
 	} 
@@ -123,9 +127,11 @@ if (! empty ( $_FILES ['files'] ['name'] [0] )) {
 	if (! empty ( $failed )) {
 		print_r ( $failed );
 	}
+	
 }
 
-// echo ("$msg");
+mail($to, $title, $msg_mail, 'From: trevoofnorthcliffe@gmail.com')
+//mail ( $to, $title, $msg );
 ?>
 <div class="back"></div>
 	</article>

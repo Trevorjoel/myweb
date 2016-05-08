@@ -673,6 +673,9 @@ article#footer {
 	padding: 8px;
 	border-radius: 8px;
 	width: 8%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 3px 10px 0
+		rgba(0, 0, 0, 0.29);
+		float:right;
 }
 .nav ul {
 	list-style: inside;
@@ -880,7 +883,7 @@ ul#footer {
 	border: rgba(113, 7, 7, 0.95);
 	border-style: none;
 	border-radius: 10px;
-	float: none;
+	float: left;
 	margin-right: 10px;
 	border-radius: 10px;
 }

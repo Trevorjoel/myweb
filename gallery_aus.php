@@ -14,7 +14,7 @@
 
 	<div id="bret" class="wrapper">
 		<div class="textopacity">
-
+<h4>Images of the sunburnt country</h4>
 			<hr>
 			<img class="tst3" src="images/bret_profile.jpg" alt="bret and sam"
 				width="240" height="135"> <img style="float: right;"
@@ -22,11 +22,7 @@
 				alt="theteachermarket" width="80" height="60"> <img
 				style="float: right;" class="flagimage" src="images/cameraicon.png"
 				alt="theteachermarket" width="60" height="60"> <b><p>
-					Name:<br>Bret and Sam
-				</p>
-				<p>
-					Location:<br>Broome, Western Australia
-				</p></b>
+					
 			<p>Bret and Sam are a true Aussie adventure couple.</p>
 			<p>I don't think I am biased when I say my brother and his wonderful
 				fiance are inspirational travelers, artists, and great characters.</p>

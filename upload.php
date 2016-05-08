@@ -195,21 +195,23 @@ include 'comment.php';
 						First Name * <br> <input name="first_name" maxlength="50"
 							size="30" placeholder="What's up?" value="" required="required"
 							type="text"> <br>
+							
 						<br> <label for="last_name">Last Name *</label><br> <input
 							style="float: left" name="last_name" maxlength="50" size="30"
 							placeholder="What's up?" value="" required="required"> <br>
+							
 						<br> <label for="email">Email Address *<br></label> <input
 							name="email" maxlength="80" size="30" placeholder="What's up?"
 							value="" required="required" type="text">
 					</p>
 					<p>
 
-						Name of your orginization:*<br> <input name="article_title"
+						<label for="bus_name">Name of your orginization:*<br></label> <input name="bus_name"
 							placeholder="What's up?" value="" required="required" type="text">
 
 						<br> <br> <label for="comments">Describe exactly you sell or do.</label>
 
-						<textarea style="float: left;" name="comments" maxlength="10000"
+						<textarea style="float: left;" name="describe" maxlength="10000"
 							cols="58" rows="8" placeholder="What's up?" value=""
 							required="required"></textarea>
 
@@ -218,33 +220,28 @@ include 'comment.php';
 						<br>How long have you been doing it and how would you describe
 							your philosophy or mission statement. What makes it unique?</label>
 
-						<textarea data-gramm="" style="float: left;" name="comments"
+						<textarea data-gramm="" style="float: left;" name="mission"
 							maxlength="10000" cols="58" rows="8" placeholder="What's up?"
 							value="" required="required"></textarea>
 
 						<br> <label for="comments"><br>Tell me something cool about
 							yourself, services and achievements.</label>
 
-						<textarea style="float: left;" name="comments" maxlength="10000"
+						<textarea style="float: left;" name="achievements" maxlength="10000"
 							cols="58" rows="8" placeholder="What's up?" value=""
 							required="required"></textarea>
-
-						<br> <label for="comments"><br>How do you prefer to be contacted?</label>
-
-						<textarea style="float: left;" name="comments" maxlength="10000"
-							cols="58" rows="8" placeholder="What's up?" value=""
-							required="required"></textarea>
+				
 
 						<br> <label for="comments"><br>Anything else you would like to add
 							about your business or product/ copy your self written article
 							here.</label>
 
-						<textarea data-gramm="" style="float: left;" name="comments"
+						<textarea data-gramm="" style="float: left;" name="more"
 							maxlength="10000" cols="58" rows="8" placeholder="What's up?"
 							value="" required="required"></textarea>
 
 						<br> <label for="urls"><br>Copy your links here:</label> <br>
-						<textarea style="float: left;" name="comments" maxlength="10000"
+						<textarea style="float: left;" name="links" maxlength="10000"
 							cols="58" rows="5" placeholder="What's up?"></textarea>
 						<br>
 						<br>
@@ -264,7 +261,7 @@ include 'comment.php';
 						<p>
 							<label for="comments">Message to admin *</label> <br>
 
-							<textarea data-gramm="" name="comments" maxlength="1000"
+							<textarea data-gramm="" name="extra" maxlength="1000"
 								cols="58" rows="10" placeholder="What's up?" value=""
 								required="required"></textarea>
 

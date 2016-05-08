@@ -41,8 +41,7 @@
    
        
         <br>
-        <p><b>Name:<br>English For Real Life<br>
-          Location:<br> Moscow, Russia</b></p><b></b>
+        
   <p>English For Real Life is run by Trevor from Australia, the creator of this website who has many years experience teaching English to Adults and to children of all ages.</p>
 
   <p>My courses are tailored to the individual with an emphasis on learning for real life situations whether they are in a business, travel or conversational context.<br> </p>  

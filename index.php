@@ -134,7 +134,7 @@
 				<h4>Presenting the Jingles</h4>
 				<hr>
 				<img class="tst3" src="images/jinglescasualwide.jpg" alt="Enjoy"
-					width="250" height="150"> <img style="float: right;"
+					width="260" height="160"> <img style="float: right;"
 					class="flagimage" src="images/estonianflag.jpg"
 					alt="theteachermarket" width="80" height="60">
 
@@ -250,7 +250,7 @@
 					<hr>
 
 					<img class="tst3" src="images/bret_profile.jpg" alt="bret and sam"
-						width="240" height="135"> <img style="float: right;"
+						width="240" height="155"> <img style="float: right;"
 						class="flagimage" src="images/australianflag.jpg"
 						alt="theteachermarket" width="80" height="60"> <img
 						style="float:;" class="flagimage" src="images/cameraicon.png"
