@@ -36,8 +36,7 @@
   </header>
   <IMG style="float': left;"class="tst3"SRC="images/theteachermarket.jpg" ALT="theteachermarket"  WIDTH=409 HEIGHT=247> 
       <IMG style="float: right;"class="flagimage"SRC="images/russianflag.jpg" ALT="theteachermarket" WIDTH=80 HEIGHT=60>
-      <b><p>Name:<br>The Teacher Market <br>
-      Location:<br>Moscow, Russia</p></b><p>
+      <p>
   The Teacher Market is run by Terry Nuss from Alaska. It is a new organisation that connects the right language teachers to the right students around the world, through Skype and face-to-face lessons.</p> <p>The Teacher Market increases the teacher's bargaining power by amassing reviews and ratings that allow the teacher to work as much or as little as they want, without a central figure such as a school to mandate their classes and hours to them.
 </p> <p>Students benefit from being able to differentiate each teacher from another through their profiles and reviews. Students can then choose the teacher they feel best fits them, unlike a school which forces students and teachers upon each other.<p>Each party has more power and independence than if they were teaching through a school. Terry has lived in Moscow, Russia for three years, before Moscow he spent time in Botswana and Rabiyah, Iraq and was born and raised in Anchorage, Alaska. He hopes to continue building The Teacher Market until it reaches every country in the world. </p>
   <p>Teachers and students can contact The Teachers Market via: <p/>

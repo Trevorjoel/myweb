@@ -16,10 +16,8 @@
    <?php include 'sidebar_right.php'; ?>
 
 
-<br>
-	<br>
-	<br>
-	<br>
+<div id="spacer">spacer
+  </div>
 	<h1 style="margin-right: 14%;">
 		<img style="float: left;" class="flagimage"
 			src="images/do-not-enter-danger-sign-s-0906.png"

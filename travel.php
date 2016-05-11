@@ -11,13 +11,12 @@
 
 
 <body id="background_travel">
-  
+  <div id="spacer">spacer</div>
 <?php include 'sidebar_right.php'; ?>
-<br>
-	<br>
-	<br>
-	<br>
+
+
 	<div id="head_travel">
+	
 		<h1 id="travel">Travels,</h1>
 		<h1 id="adventures">Adventures,</h1>
 		<h1 id="stories">Stories!</h1>

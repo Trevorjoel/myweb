@@ -5,7 +5,8 @@
 <body ID="altbackground2">
 <?php include 'sidebar_right.php';
 ?>
-<br><br><br><br>
+<div id="spacer">spacer
+  </div>
 <h1>UNDER CONSTRUCTION!</h1>
 <article class=articleform>
 

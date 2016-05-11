@@ -134,9 +134,7 @@
 				<h4>Presenting the Jingles</h4>
 				<hr>
 				<img class="tst3" src="images/jinglescasualwide.jpg" alt="Enjoy"
-					width="260" height="160"> <img style="float: right;"
-					class="flagimage" src="images/estonianflag.jpg"
-					alt="theteachermarket" width="80" height="60">
+					width="340" height="190"> 
 
 				<p>This great four peice band out of Estonia are long time friends
 					of mine.</p>
@@ -145,6 +143,12 @@
 					on percussion, Hainn Hoppe on guitars and Tanel Liberg on bass.. <br>
 					<a href="thejingles.php?id=2"><img src="images/buttonreadmore.png"
 						width="101" height="41" alt=""> </a>
+						<img style="float: right;"
+					class="flagimage" src="images/estonianflag.jpg"
+					alt="theteachermarket" width="65" height="45">
+					<img
+					style="float: right;" class="flagimage"
+					src="images/movie.jpg" alt="theteachermarket" width="65" height="45">
 				</p>
 
 			</article>
@@ -160,24 +164,26 @@
 
 				<h4>English for real life</h4>
 				<hr>
+				
 				<img class="tst3" src="images/erlbanner1.jpg" alt="erlbanner"
-					width="250" height="146"> <img style="float: right;"
-					class="flagimage" src="images/russianflag.jpg"
-					alt="theteachermarket" width="80" height="60"> <img
-					style="float: right;" class="flagimage"
-					src="images/skypelessons.jpg" alt="theteachermarket" width="90"
-					height="60">
+					width="340" height="190"> 
 
 
 				<p>English For Real Life is run by Trevor from Australia, the
 					creator of this website who has many years experience teaching
-					English to Adults and to children of all ages.</p>
-				<p>
+					English to Adults and to children of all ages.
+				
 
 					My courses are tailored to... <br> <a
 						href="english-for-real-life.php?id=3"><img
 						src="images/buttonreadmore.png" width="101" height="41" alt=""> </a>
 				</p>
+				<img style="float: right;"
+					class="flagimage" src="images/russianflag.jpg"
+					alt="theteachermarket" width="65" height="45"> <img
+					style="float: right;" class="flagimage"
+					src="images/skypelessons.jpg" alt="theteachermarket" "65" height="45">
+					
 			</article>
 		</div>
 
@@ -191,8 +197,7 @@
 
 				<h4>Learning how to learn</h4>
 				<hr>
-				<img class="tst3" src="images/573647.jpg" alt="php" width="288"
-					height="180">
+				<img class="tst3" src="images/573647.jpg" alt="php" width="340" height="190">
 				<p>
 					<b>The internet is a wonderful place for learning about anything,</b>
 					however, the hardest part is finding good information, the needles
@@ -201,9 +206,7 @@
 					ashtray or days scouring through poorly put together instructions.
 				</p>
 
-
-
-				<br> <a href="learning-how-to-learn.php?id=9"><img
+					<a href="learning-how-to-learn.php?id=9"><img
 					src="images/buttonreadmore.png" width="101" height="41" alt=""> </a>
 
 			</article>
@@ -219,14 +222,13 @@
 				<hr>
 				<img style="float ': left;" class="tst3"
 					src="images/theteachermarket.jpg" alt="theteachermarket"
-					width="240" height="155"> <img style="float: right;"
+					width="340" height="190"> <img style="float: right;"
 					class="flagimage" src="images/russianflag.jpg"
 					alt="theteachermarket" width="80" height="60">
 
 				<p>The Teacher Market is run by Terry Nuss from Alaska. It is a new
 					organisation that connects the right language teachers to the right
-					students around the world, through Skype and face-to-face lessons.</p>
-				<p>
+					students around the world, through Skype and face-to-face lessons.
 					The Teacher Market increases the teacher's bargaining power by... <a
 						href="theteachermarket.php?id=4"><img
 						src="images/buttonreadmore.png" width="101" height="41" alt=""> </a>
@@ -250,7 +252,7 @@
 					<hr>
 
 					<img class="tst3" src="images/bret_profile.jpg" alt="bret and sam"
-						width="240" height="155"> <img style="float: right;"
+						width="310" height="180"> <img style="float: right;"
 						class="flagimage" src="images/australianflag.jpg"
 						alt="theteachermarket" width="80" height="60"> <img
 						style="float:;" class="flagimage" src="images/cameraicon.png"

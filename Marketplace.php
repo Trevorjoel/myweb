@@ -8,12 +8,6 @@
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="main.css">
 <?php include 'header.php';?>
-</head>
-
-<body id="background_marketplace">
-<?php include 'sidebar_right.php'; ?>
-
-
 <div id="fb-root"></div>
 	<script type="text/javascript">(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -22,15 +16,15 @@
   js.src = "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+</head>
 
+<body id="background_marketplace">
+<div id="spacer">spacer</div>
+<?php include 'sidebar_right.php'; ?>
 
-
-	<br>
-	<br>
-	<br>
-	<br>
 	<div id="head_marketplace">
 
+	
 		<h1 id="marketplace">Marketplace</h1>
 	</div>
 
@@ -51,9 +45,8 @@
 			src="images/russianflag.jpg" alt="theteachermarket" width="80"
 			height="60"> <img style="float: right;" class="flagimage"
 			src="images/skypelessons.jpg" alt="theteachermarket" width="90"
-			height="60"> <b><p>
-				Name:<br>English For Real Life<br> Location:<br> Moscow, Russia
-			</p></b>
+			height="60">
+
 		<p>English For Real Life is run by Trevor from Australia, the creator
 			of this website who has many years experience teaching English to
 			Adults and to children of all ages.</p>
@@ -72,26 +65,22 @@
 		<img class="tst3" src="images/theteachermarket.jpg"
 			alt="theteachermarket" width="409" height="247"> <img
 			style="float: right;" class="flagimage" src="images/russianflag.jpg"
-			alt="theteachermarket" width="80" height="60"> <b><p>
-				Name:<br>The Teacher Market <br> Location:<br>Moscow, Russia
-			</p></b>
-		<p>The Teacher Market is run by Terry Nuss from Alaska. It is a new
-			organisation that connects the right language teachers to the right
-			students around the world, through Skype and face-to-face lessons.</p>
-		<p>
-			The Teacher Market increases the teacher's bargaining power by
-			amassing reviews and..<br> <a href="theteachermarket.php?id=4"><img
-				src="images/buttonreadmore.png" width="101" height="41" alt=""></a>
+			alt="theteachermarket" width="80" height="60"> <b><p></p>
+			<p>The Teacher Market is run by Terry Nuss from Alaska. It is a new
+				organisation that connects the right language teachers to the right
+				students around the world, through Skype and face-to-face lessons.</p>
+			<p>
+				The Teacher Market increases the teacher's bargaining power by
+				amassing reviews and..<br> <a href="theteachermarket.php?id=4"><img
+					src="images/buttonreadmore.png" width="101" height="41" alt=""></a>
 
 
 
 
-		</p>
-		<p>
-			<a href="LINK"></a>
-		</p>
-
-		<footer> </footer>
+			</p>
+			<p>
+				<a href="LINK"></a>
+			</p> <footer> </footer> </b>
 	</article>
 
 

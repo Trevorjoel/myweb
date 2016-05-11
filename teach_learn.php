@@ -6,30 +6,25 @@
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="main.css">
-    <?php include 'header.php';?>
-  
-  </head>
-
-<body>
-
-
-
-	<div id="fb-root"></div>
+    <div id="fb-root"></div>
 	<script type="text/javascript">(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
           if (d.getElementById(id)) return;
             js = d.createElement(s); js.id = id;
               js.src = "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
                 fjs.parentNode.insertBefore(js, fjs);
-                  }(document, 'script', 'facebook-jssdk'));</script>
+                  }(document, 'script', 'facebook-jssdk'));
+    </script>
+  <?php include 'header.php';?>
+  </head>
 
+<body>
+<div id="spacer">spacer
+  </div> 
      <?php include 'sidebar_right.php'; ?>
-    
+  
 
-  <br>
-	<br>
-	<br>
-	<br>
+  
 	<div id="head_teach">
 		<h1 id="teach";>Teach, learn and share</h1>
 		<p id="teach_text">Videos</p>
