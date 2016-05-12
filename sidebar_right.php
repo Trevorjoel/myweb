@@ -31,7 +31,7 @@
 			</li>
 
 
-			<li id="li_sides5">Give me money you bastards!
+			<li id="li_sides5">Donate?
 			<form class="donate_home" action="https://www.paypal.com/cgi-bin/webscr" method="post"
 						target="_top">
 						<input type="hidden" name="cmd" value="_s-xclick"> <input
@@ -46,7 +46,7 @@
 							width="1" height="1">
 	
 				</form>
-			
+			Or visit the partners below!
 			</li>
 		</ul>
 	</div>

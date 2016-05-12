@@ -6,10 +6,7 @@
     <link rel="stylesheet" href="main.css">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-</head>
-
-<body>
-	<div id="fb-root"></div>
+<div id="fb-root"></div>
 	<script type="text/javascript">
         (function(d, s, id) {
                 var js, fjs = d.getElementsByTagName(s)[0];
@@ -21,10 +18,11 @@
             }
             (document, 'script', 'facebook-jssdk'));
     </script>
-	<br>
-	<br>
-	<br>
+</head>
 
+<body>
+	
+	 <div id="spacer">.</div>
 
 	<div id="head_home">
 
@@ -39,37 +37,24 @@
 	
 		<p id="home1">Welcome to our ever developing web site.
 			Those who love music, art, travel and want to be a part of an
-			intellegent and loving community have come to the right place. <br> More about that and everything else you may need here:
-			<br> <a style="float: left;" href="about.php"><img
-				src="images/buttonreadmore.png" width="101" height="41" alt=""> </a>
-			<br> <br> I hope you enjoy my work and share your ideas with me. <br>
+			intellegent and loving community have come to the right place. 
+			<br> More about that and everything else you may need here:
+			<br> I hope you enjoy my work and share your ideas with me. 
+			<a style="float: right;" href="about.php"><img src="images/buttonreadmore.png" width="101" height="41" alt=""> </a><br>
+			<a href="upload.php?id=10"><img src="images/upload.png"
+				width="150" height="43" alt=""></a>
 		</p>
 	</div>
 	<div class="flexbox">
-<form class="donate_home" action="https://www.paypal.com/cgi-bin/webscr" method="post"
-						target="_top">
-						<input type="hidden" name="cmd" value="_s-xclick"> <input
-							type="hidden" name="encrypted"
-							value="-----BEGIN PKCS7-----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-----END PKCS7-----
-"> <input type="image"
-							src="https://www.paypalobjects.com/en_AU/i/btn/btn_donateCC_LG.gif"
-							border="0" name="submit"
-							alt="PayPal — The safer, easier way to pay online."> <img alt=""
-							border="0"
-							src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif"
-							width="1" height="1">
-	
-				</form>
 				
-	<a href="upload.php?id=10"><img src="images/upload.png"
-				width="150" height="43" alt=""></a>
+	
 </div>
 	<h1 style="font-size: 250%">Latest updates</H1>
 	
 
 <hr>
 	<div class="flexbox">
-		<article style="width: 100%;" class="articleform">
+		<article id="articleform_home">
 
 			<header>
 				<h4>Site testers!</h4>
@@ -79,7 +64,7 @@
 				Published:
 				<time pubdate="pubdate">Date</time>
 			</p>
-			<img class="tst3" src="images/notice.png" alt="erlbanner" width="328"
+			<img class="img" src="images/notice.png" alt="erlbanner" width="328"
 				height="195">
 			<p>
 				This site is in the test phase. <br>You have been chosen to test my
