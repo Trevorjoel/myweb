@@ -51,6 +51,10 @@ body#background_musicandart {
 	background-image: none;
 }
 
+div {
+	border:none;
+}
+
 div#lusa {
 	background-image: url("images/lusa/light2.jpg");
 	background-repeat: repeat;
@@ -310,14 +314,28 @@ h4 {
 }
 
 iframe {
-	position: center;
-	border-radius: 5px;
-	border-spacing: 10px;
-	padding: 10px;
+	
+	border-radius: 1px;
+	border-spacing: 0px;
+	padding: 0px;
 	margin-bottom: 10px;
-	border: medium inset rgba(113, 7, 7, 0.95);
+	margin-left:-10px;
+	margin-top:-10px;
+	border: none;
+	background-color:#f9f9f9;
+	
 }
-
+iframe#youtube{
+	position: center;
+	border-radius: 10px;
+	border-spacing: 0px;
+	padding: 0px;
+	margin-bottom: 1px;
+	border: none;
+	background-color:#e1dcc4;
+	margin: 0px;
+	border: 4px solid rgba(0, 0, 0, 0.1);
+}
 p {
 	font-family: Oranienbaum;
 	color: #500B0B;
@@ -345,6 +363,7 @@ p#home1 {
 	width:500px;
 	margin-top:100px;
 	padding-bottom:2%;
+	
 }
 .textopacity_r {
 	background: rgb(204, 204, 204);
@@ -462,9 +481,8 @@ article#footer {
 	width: 50%;
 	padding: 10px;
 	margin-top: bottom 15px;
-	background: rgb(204, 204, 204);
-	/* Fallback for older browsers without RGBA-support */
-	background: rgba(204, 204, 204, 0.5);
+	background: #F9F9F9;
+	opacity: .9;
 }
 
 .comment-form {
@@ -477,9 +495,9 @@ article#footer {
 	margin-top: 15px;
 	font-family:;
 	font-size: 150%;
-	background: rgb(204, 204, 204);
-	/* Fallback for older browsers without RGBA-support */
-	background: rgba(204, 204, 204, 0.5);
+	background: #F9F9F9;
+	
+	
 }
 
 .comments-wrapper-heading {
@@ -652,6 +670,10 @@ article#footer {
 	height: 20px;
 	border: 3px solid #73AD21;
 }
+div.g-recaptcha{
+	border:none;
+	margin:10px;
+}
 
 .icon {
 	padding-left: 10px;
@@ -708,7 +730,7 @@ article#footer {
 	padding-bottom: 0%;
 	background: rgb(204, 204, 204);
 	/*Fallback for older browsers without RGBA-support */
-	background: rgba(204, 204, 204, 0.5);
+	background: rgba(204, 204, 204, 1.0);
 	background-image:
 		url("images/wood_grain_texture_4_by_hyenacub_stock-d3a1cr8.jpg");
 	background-position: center;
@@ -719,14 +741,15 @@ article#footer {
 	padding-left: 2px;
 	padding-right: 2px;
 	background-color: #F8F8F8;
-	opacity: .99;
+	opacity: 1.0;
 	overflow:hidden;
 	margin-left: 10px;
 	position: fixed;
 	float: left;
 	border-radius: 2px;
-	border-bottom-right-radius: 0px;
 	width: 94.8%;
+	z-index: 2;
+	
 }
 
 ul#footer {
@@ -756,6 +779,7 @@ ul#footer {
 	background-image: url("images/old-grunge-vector-background.jpg");
 	float: left;
 	background-position: bottom;
+	opacity:1;
 }
 
 .nav #ul_sides { 
@@ -768,6 +792,7 @@ ul#footer {
 	margin-left: 81%;
 	position: absolute;
 	width: 14.8%;
+	z-index: 1;
 }
 /*
 	font-family: 'Monastic Pro', sans-serif;

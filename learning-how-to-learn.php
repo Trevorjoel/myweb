@@ -36,14 +36,14 @@
 			thing or two about how to teach and learn. The main problems I see
 			with learning and how to overcome them are;</p>
 
-		<b><p align="center">Too hard/too easy.</p>
-			<p></p></b> Learning something is an incremental process, you don't
+		<p align="center"><b>Too hard/too easy.</b></p>
+			<p> Learning something is an incremental process, you don't
 		learn to drive by entering a Formula 1 race. Find your level, if in
 		doubt revert to the basics and build a solid foundation.
-		<p></p>
+		</p>
 
-		<b><p align="center">Patience/attitude/giving up.</p>
-			<p></p></b> There are no quick fixes, those products for penis
+		<p align="center"><b>Patience/attitude/giving up.</b></p>
+		<p>	 There are no quick fixes, those products for penis
 		enlargement don't work (Albert tried them). You wanna learn something,
 		you gotta wanna learn it. <br>NEVER say "I'm not smart enough" either
 		way you think you're right. <br>NEVER let yourself get frustrated, you
@@ -64,26 +64,25 @@
 			a timer, 20 mins of study then take a reward break and so on.
 		</p>
 
-		<b><p align="center">Practical application of theory.</p>
-			<p></p></b> If you can't practice it for yourself in a real world
+		<p align="center"><b>Practical application of theory.</b></p>
+			<p> If you can't practice it for yourself in a real world
 		situation it won't stick. Begin a project and apply your knowledge as
 		you learn it. You never know, your inexperience and the new
 		perspective on the subject could be pure gold. Many great
 		breakthroughs in physics have been discovered by undergraduates.
-		<p></p>
+		</p>
 
-		<b><p align="center">Poor information and presentation of learning
-				materials.</p>
-			<p></p></b> If you don't like the teacher it's hard to learn from
+		<p align="center"><b>Poor information and presentation of learning
+				materials.</b></p>
+			<p> If you don't like the teacher it's hard to learn from
 		them, a bit of enthusiasm and humour goes a long way to getting the
 		information to stick with the students.
-		<p></p>
+		</p>
 
-		<b><p>So with this in mind, each new article will have the basic
-				information;</p>
-			<p></p></b> <b>Title:</b> What its title is (duh).
-		<p></p>
-		<p>
+		<p>So with this in mind, each new article will have the basic
+				information;</p><p></p><p>
+			 <b>Title:</b></p><p>
+		
 			<b>Level:</b> Beginner, Pre-intermediate, Intermediate,
 			Upper-intermediate and Advanced.
 		</p>
@@ -106,14 +105,14 @@
 		<p>
 			<a href="&lt;p&gt;"></a>
 		</p>
-		"><a></a>
+		<a></a>
 		<p></p>
 		<p>
-			<iframe width="854" height="480"
+			<iframe id="youtube" width="504" height="380"
 				src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0"
 				allowfullscreen></iframe>
 		</p>
-		<iframe width="854" height="480"
+		<iframe id="youtube" width="504" height="380"
 			src="https://www.youtube.com/embed/lB6K60mkmho" frameborder="0"
 			allowfullscreen></iframe>
 

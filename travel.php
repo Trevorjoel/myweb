@@ -11,12 +11,12 @@
 
 
 <body id="background_travel">
-  <div id="spacer">spacer</div>
+	<div id="spacer">spacer</div>
 <?php include 'sidebar_right.php'; ?>
 
 
 	<div id="head_travel">
-	
+
 		<h1 id="travel">Travels,</h1>
 		<h1 id="adventures">Adventures,</h1>
 		<h1 id="stories">Stories!</h1>
@@ -33,18 +33,19 @@
 		<p>
 			Name: Trevor <br /> Location: Moscow <br />Nationality: Australian
 		</p>
-		Born from the bunghole of an ostrich, I took my first trip to Mordor
-		in my avian mothers womb. I was hooked on travel immediately. Since
-		that trip I have loved travel like a meth fiend loves the glass pipe.
-		A long time user of couchsurfing I have hosted many people and surfed
-		somewhat around Brazil and Europe. As the creator of this website I'm
-		hoping to provide my friends with a safer more tight knit travel
-		community where people can meet verified friends to meet up and even
-		host eachother. Currently in Moscow I would welcome anybody to message
-		me on my <a href="https://www.facebook.com/tgarrity">Facebook</a> get
-		in touch with me for a coffee, to network and show you around.
+		<p>
+			Born from the bunghole of an ostrich, I took my first trip to Mordor
+			in my avian mothers womb. I was hooked on travel immediately. Since
+			that trip I have loved travel like a meth fiend loves the glass pipe.
+			A long time user of couchsurfing I have hosted many people and surfed
+			somewhat around Brazil and Europe. As the creator of this website I'm
+			hoping to provide my friends with a safer more tight knit travel
+			community where people can meet verified friends to meet up and even
+			host eachother. Currently in Moscow I would welcome anybody to
+			message me on my <a href="https://www.facebook.com/tgarrity">Facebook</a>
+			get in touch with me for a coffee, to network and show you around.
 
-		<p></p>
+		</p>
 
 		...
 		<footer>

@@ -1,23 +1,9 @@
-
 <html>
   <head>
     <title>Comments</title>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <script type="text/javascript" src="jquery-1.12.2.js"></script>
-<script type="text/javascript"> function get(){
-//	$.post ('insert_to.php')
-	
-//	$('#comment_reply') .html (output) .show ();
-//}
-</script>
-    <?  
-  //  if ($_POST){
-  // 	$errors = array();
-   // 	if (empty($_POST['name'])){
-    	//	$errors = ['Name field can not be empty!'];
-   // 	}
-   // }
-  //  include("insert_to.php");
-    ?>
+
     
   </head>
   <body>
@@ -41,12 +27,13 @@
 				<textarea id="comment" class="input-fields"
 					placeholder="Comment here!" name="comment" cols="40" rows="4"
 					required='required'></textarea>
-
+<div class="g-recaptcha" data-sitekey="6Lcavx8TAAAAAEBbo9BcRVuHm2Iya3iWE6vgjRMJ"></div>
 			</div>
 			<input name="submit" class="form-submit-button" type="submit"
 				id="submit" value="Submit" onclick="get()"> <input type="hidden"
 				name="articleid" id="articleid"
-				value="&lt;?php echo $_GET['id']; ?&gt;" />
+				value="<?php echo $_GET['id']; ?>"/> 
+		
 		</form>
 
 	</div>                                                                                 
@@ -61,3 +48,4 @@
 
   </body>
 </html>
+

@@ -8,8 +8,7 @@
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="main.css">
   <?php
-		
-include 'header.php';
+		include 'header.php';
 		?>
 
 </head>
@@ -28,8 +27,7 @@ include 'header.php';
 
 
 
-	<div id="spacer">spacer
-  </div>
+	<div id="spacer">spacer</div>
 	<h1>The Jingles</h1>
 
 
@@ -72,7 +70,10 @@ include 'header.php';
 			you get the chance, I can personally vouch for them.</p>
 		<p>Here's the latest video of them:</p>
 
-		<iframe width="480" height="270"
+		<iframe id="youtube" width="504" height="380"
+			src="https://www.youtube.com/embed/te2VC3koMnc" frameborder="0"
+			allowfullscreen></iframe>
+		<iframe id="youtube" width="504" height="380"
 			src="https://www.youtube.com/embed/te2VC3koMnc" frameborder="0"
 			allowfullscreen></iframe>
 		<br>
@@ -84,13 +85,7 @@ include 'header.php';
 			data-href="https://www.facebook.com/flackandvaher" data-width="100"
 			data-layout="standard" data-action="like" data-show-faces="true"
 			data-share="true" style=""></div>
-         
-            
-
- 
-
- 
-
+                     
     
     <?php
 				include 'list_comments.php';
