@@ -45,10 +45,7 @@
 				width="150" height="43" alt=""></a>
 		</p>
 	</div>
-	<div class="flexbox">
-				
 	
-</div>
 	<h1 style="font-size: 250%">Latest updates</H1>
 	
 
@@ -133,7 +130,7 @@
 					alt="theteachermarket" width="65" height="45">
 					<img
 					style="float: right;" class="flagimage"
-					src="images/movie.jpg" alt="theteachermarket" width="65" height="45">
+					src="images/movie.jpg" alt="movie" width="45" height="45">
 				</p>
 
 			</article>
@@ -162,13 +159,13 @@
 					My courses are tailored to... <br> <a
 						href="english-for-real-life.php?id=3"><img
 						src="images/buttonreadmore.png" width="101" height="41" alt=""> </a>
-				</p>
+				
 				<img style="float: right;"
 					class="flagimage" src="images/russianflag.jpg"
 					alt="theteachermarket" width="65" height="45"> <img
 					style="float: right;" class="flagimage"
-					src="images/skypelessons.jpg" alt="theteachermarket" "65" height="45">
-					
+					src="images/skypelessons.jpg" alt="theteachermarket" width:"65" height="45">
+					</p>
 			</article>
 		</div>
 
@@ -193,6 +190,9 @@
 
 					<a href="learning-how-to-learn.php?id=9"><img
 					src="images/buttonreadmore.png" width="101" height="41" alt=""> </a>
+					<img
+					style="float: right;" class="flagimage"
+					src="images/movie.jpg" alt="movie" width="45" height="45">
 
 			</article>
 		</div>
@@ -207,9 +207,7 @@
 				<hr>
 				<img style="float ': left;" class="tst3"
 					src="images/theteachermarket.jpg" alt="theteachermarket"
-					width="340" height="190"> <img style="float: right;"
-					class="flagimage" src="images/russianflag.jpg"
-					alt="theteachermarket" width="80" height="60">
+					width="340" height="190"> 
 
 				<p>The Teacher Market is run by Terry Nuss from Alaska. It is a new
 					organisation that connects the right language teachers to the right
@@ -217,6 +215,9 @@
 					The Teacher Market increases the teacher's bargaining power by... <a
 						href="theteachermarket.php?id=4"><img
 						src="images/buttonreadmore.png" width="101" height="41" alt=""> </a>
+						<img style="float: right;"
+					class="flagimage" src="images/russianflag.jpg"
+					alt="theteachermarket" width="65" height="45">
 				</p>
 
 			</article>
@@ -237,18 +238,18 @@
 					<hr>
 
 					<img class="tst3" src="images/bret_profile.jpg" alt="bret and sam"
-						width="310" height="180"> <img style="float: right;"
-						class="flagimage" src="images/australianflag.jpg"
-						alt="theteachermarket" width="80" height="60"> <img
-						style="float:;" class="flagimage" src="images/cameraicon.png"
-						alt="theteachermarket" width="60" height="60">
+						width="310" height="180"> 
 
 					<p>Bret and Sam are a true Aussie adventure couple.</p>
 					<p>
 						I don't think I am biased when I say my brother and his wonderful
 						fiance are inspirational travelers, artists, and great... <br> <a
 							href="gallery_aus.php?id=5"> <img src="images/buttonreadmore.png"
-							width="101" height="41" alt="">
+							width="101" height="41" alt=""><img style="float: right;"
+						class="flagimage" src="images/australianflag.jpg"
+						alt="theteachermarket" width="65" height="45"> <img
+						style="float:;" class="flagimage" src="images/cameraicon.png"
+						alt="theteachermarket" width="45" height="45">
 						</a>
 					</p>
 				</div>
@@ -278,7 +279,34 @@
 		</div>
 	</div>
 
-    <?php include 'yourarticle.php'; ?>
+    <html>
+
+
+<article class="articleform"  style="width: 94%;">
+<IMG style="float: right;"class="flagimage"SRC="images/world.png" ALT="theteachermarket" WIDTH=50 HEIGHT=50>
+<header> <h1 style="font-size : 250%">Your Article here?</h1></header>
+<hr>
+<IMG class="tst3"SRC="images/Silhouette-question-mark.jpeg" ALT="php" WIDTH=180 HEIGHT=180><p>
+
+
+
+<p>You may upload your own articles or advertise your products and services on our site.
+Please go to the upload page and read about how it works.</p>
+
+<a href="upload.php?id=10"><img src="images/upload.png" WIDTH=201 HEIGHT=58 ></a>
+
+
+ 
+
+<p><A HREF="LINK"></A></p>
+
+<footer>
+<p>Author: <time pubdate="pubdate">You!</time></p>
+</footer>
+</article>
+</html>
+
+
     <?php include 'footer.php';?>
 
 </body>

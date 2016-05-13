@@ -73,9 +73,7 @@
 		<iframe id="youtube" width="504" height="380"
 			src="https://www.youtube.com/embed/te2VC3koMnc" frameborder="0"
 			allowfullscreen></iframe>
-		<iframe id="youtube" width="504" height="380"
-			src="https://www.youtube.com/embed/te2VC3koMnc" frameborder="0"
-			allowfullscreen></iframe>
+		
 		<br>
 
 		<p>Follow them on their Facebook page (below the video, don't forget
