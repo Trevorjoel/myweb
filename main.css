@@ -134,6 +134,39 @@ h1#home {
 	width: 40%;
 	margin-left: 29%;
 }
+div#head_humour {
+	background-image: url("images/humour2.jpeg");
+	background-position: center;
+	background-repeat: repeat-n;
+	max-image-size:100%;
+	height: 53%;
+	width: 100%;
+	margin-left: 10px;
+	margin-top: 0%;
+	border-radius: 10px;
+}
+	h1#humour {
+	color: white;
+	font-size: 620%;
+	margin-left: 0%;
+	margin-top: 0px;
+	padding-top: 100px;
+	padding-bottom: 0px;
+	width: 24%;
+	background: black 0.6;
+	border-radius: 5px;
+}
+
+p#humour_text {
+	color: white;
+	background: rgb(204, 204, 204);
+	/*Fallback for older browsers without RGBA-support */
+	border-radius: 5px;
+	/*width: 200px;*/
+	display: inline-block;
+}
+
+
 
 div#head_travel {
 	background-image: url("images/coralbay.jpg");

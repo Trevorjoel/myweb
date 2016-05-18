@@ -36,19 +36,24 @@
 			thing or two about how to teach and learn. The main problems I see
 			with learning and how to overcome them are;</p>
 
-		<p align="center"><b>Too hard/too easy.</b></p>
-			<p> Learning something is an incremental process, you don't
-		learn to drive by entering a Formula 1 race. Find your level, if in
-		doubt revert to the basics and build a solid foundation.
+		<p align="center">
+			<b>Too hard/too easy.</b>
 		</p>
+		<p>Learning something is an incremental process, you don't learn to
+			drive by entering a Formula 1 race. Find your level, if in doubt
+			revert to the basics and build a solid foundation.</p>
 
-		<p align="center"><b>Patience/attitude/giving up.</b></p>
-		<p>	 There are no quick fixes, those products for penis
-		enlargement don't work (Albert tried them). You wanna learn something,
-		you gotta wanna learn it. <br>NEVER say "I'm not smart enough" either
-		way you think you're right. <br>NEVER let yourself get frustrated, you
-		just need the right info at the right time, take a quick break come
-		back and go over what you already know. <br>NEVER give up.
+		<p align="center">
+			<b>Patience/attitude/giving up.</b>
+		</p>
+		<p>
+			There are no quick fixes, those products for penis enlargement don't
+			work (Albert tried them). You wanna learn something, you gotta wanna
+			learn it. <br>NEVER say "I'm not smart enough" either way you think
+			you're right. <br>NEVER let yourself get frustrated, you just need
+			the right info at the right time, take a quick break come back and go
+			over what you already know. <br>NEVER give up.
+		</p>
 		<p></p>
 
 		<b><p align="center">Hard work/organisation.</p></b>
@@ -64,25 +69,30 @@
 			a timer, 20 mins of study then take a reward break and so on.
 		</p>
 
-		<p align="center"><b>Practical application of theory.</b></p>
-			<p> If you can't practice it for yourself in a real world
-		situation it won't stick. Begin a project and apply your knowledge as
-		you learn it. You never know, your inexperience and the new
-		perspective on the subject could be pure gold. Many great
-		breakthroughs in physics have been discovered by undergraduates.
+		<p align="center">
+			<b>Practical application of theory.</b>
 		</p>
+		<p>If you can't practice it for yourself in a real world situation it
+			won't stick. Begin a project and apply your knowledge as you learn
+			it. You never know, your inexperience and the new perspective on the
+			subject could be pure gold. Many great breakthroughs in physics have
+			been discovered by undergraduates.</p>
 
-		<p align="center"><b>Poor information and presentation of learning
-				materials.</b></p>
-			<p> If you don't like the teacher it's hard to learn from
-		them, a bit of enthusiasm and humour goes a long way to getting the
-		information to stick with the students.
+		<p align="center">
+			<b>Poor information and presentation of learning materials.</b>
 		</p>
+		<p>If you don't like the teacher it's hard to learn from them, a bit
+			of enthusiasm and humour goes a long way to getting the information
+			to stick with the students.</p>
 
 		<p>So with this in mind, each new article will have the basic
-				information;</p><p></p><p>
-			 <b>Title:</b></p><p>
-		
+			information;</p>
+		<p></p>
+		<p>
+			<b>Title:</b>
+		</p>
+		<p>
+
 			<b>Level:</b> Beginner, Pre-intermediate, Intermediate,
 			Upper-intermediate and Advanced.
 		</p>

@@ -9,23 +9,17 @@
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <?php include 'header.php'; ?>
 </head>
-
-
-<body>
-	<script type="text/javascript"> alert("You have entered the humour area of the site. You are guaranteed to be offended. Please click back if you are a whiney little bitch, otherwise click ok to continue.");</script>
-   <?php include 'sidebar_right.php'; ?>
-
-
 <div id="spacer">spacer
   </div>
-	<h1 style="margin-right: 14%;">
-		<img style="float: left;" class="flagimage"
-			src="images/do-not-enter-danger-sign-s-0906.png"
-			alt="theteachermarket" width="100" height="80">Humour<img
-			style="float: right;" class="flagimage"
-			src="images/do-not-enter-danger-sign-s-0906.png"
-			alt="theteachermarket" width="100" height="80">
-	</h1>
+
+<body>
+	<!--  <script type="text/javascript"> alert("You have entered the humour area of the site. You are guaranteed to be offended. Please click back if you are a whiney little bitch, otherwise click ok to continue.");</script>
+-->   
+<?php include 'sidebar_right.php'; ?>
+   <div id="head_humour">
+		<h1 id="humour">Humour</h1>
+	
+	</div>
 
 
 
