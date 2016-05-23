@@ -27,9 +27,9 @@
   
 	<div id="head_teach">
 		<h1 id="teach";>Teach, learn and share</h1>
-		<p id="teach_text">Videos</p>
-		<p id="teach_text">Tutorials</p>
-		<p id="teach_text">Tips</p>
+		<p id="teach_text">Everybody loves intelligence.</p><br>
+		<p id="teach_text">Videos Tutorials & Tips <br>get sapiosexual!</p>
+		
 	</div>
 
 

@@ -10,7 +10,7 @@
 <?php include 'header.php';?>
 </head>
 
-<body>
+<body id="background_humour">
 <?php include 'sidebar_right.php'; ?>
 
 
@@ -24,17 +24,15 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 	<div></div>
 
-	<br>
-	<br>
-	<br>
-	<br>
-	<h1>Pig Sniffler: A tale of swine and murder</h1>
+	<div id="spacer">spacer</div>
+	
 	<article class="articleform">
+	<h1>Pig Sniffler: A tale of swine and murder</h1>
 		<img style="float: right;" class="flagimage"
 			src="images/update_post_it_note.png" alt="theteachermarket"
 			width="80" height="60">
 
-
+<hr>
 		<p>Welcome to my story. I am writing it as I go and updates will be
 			posted below.</p>
 		<p>Here is a snippet</p>

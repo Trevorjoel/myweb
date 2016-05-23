@@ -32,6 +32,30 @@ $article_body = $_POST ['article_body'];
 $links = $_POST ['links'];
 $extra = $_POST ['extra'];
 
+//recaptcha processing
+$captcha = $_POST ['g-recaptcha-response'];
+$first_name;
+$email;
+$captcha;
+if (isset ( $_POST ['first_name'] )) {
+	$first_name = $_POST ['first_name'];
+	if (isset ( $_POST ['email'] )) {
+		$email = $_POST ['email'];
+	}
+
+	if (isset ( $_POST ['g-recaptcha-response'] )) {
+		$captcha = $_POST ['g-recaptcha-response'];
+	}
+	if (! $captcha) {
+		echo "<img class='' src='images/windowlicker.jpg' 
+			><br>"."<h1>Please fill out the the captcha form.</h1>";
+		exit ();
+	}else{
+	}
+}
+$ip = $_SERVER ['REMOTE_ADDR'];
+$secretKey = "6Lcavx8TAAAAALEXJbyV5SCTHgFW7r8FxX58o7ti";
+$response = file_get_contents ( "https://www.google.com/recaptcha/api/siteverify?secret=" . $secretKey . "&response=" . $captcha . "&remoteip=" . $ip );
 
 $first_name = filter_input ( INPUT_POST, 'first_name', FILTER_SANITIZE_STRING );
 $last_name = filter_input ( INPUT_POST, 'last_name', FILTER_SANITIZE_STRING );
@@ -48,6 +72,14 @@ $msg_mail = ("$first_name\n"  . " $last_name\n" . " $email\n" . "  $publish_area
 		" $title \n" .  " $article_body\n" . " $links\n" . " $extra\n");
 
 $to = 'trevoofnorthcliffe@gmail.com';
+
+if ( empty ( $_FILES ['files'] ['name'] [0] )) {
+	echo "<p>"."<img class='' src='images/windowlicker.jpg' 
+			><br>"."You did not upload any images.<br>Go back and select some images so that we may create a
+		nice looking article for you." . "<br><a style='cursor:pointer' onclick='history.go(-1);return true;' rel=nofollow'>
+			 		<img src='images/back_button_orange_1358241199.png'></a>";
+	exit ();
+}
 
 if (! empty ( $_FILES ['files'] ['name'] [0] )) {
 	
@@ -130,7 +162,7 @@ if (! empty ( $_FILES ['files'] ['name'] [0] )) {
 	
 }
 
-mail($to, $title, $msg_mail, 'From: trevoofnorthcliffe@gmail.com')
+//mail($to, $title, $msg_mail, 'From: trevoofnorthcliffe@gmail.com')
 //mail ( $to, $title, $msg );
 ?>
 <div class="back"></div>

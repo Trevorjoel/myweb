@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="main.css">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<div id="fb-root"></div>
+<div id="fb-root">
+</div>
 	<script type="text/javascript">
         (function(d, s, id) {
                 var js, fjs = d.getElementsByTagName(s)[0];
@@ -26,24 +27,6 @@
 
 	<div id="head_home">
 
-		<h1 id="home">Home page</h1>
-	
-		
-
-		
-			
-					
-				
-	
-		<p id="home1">Welcome to our ever developing web site.
-			Those who love music, art, travel and want to be a part of an
-			intellegent and loving community have come to the right place. 
-			<br> More about that and everything else you may need here:
-			<br> I hope you enjoy my work and share your ideas with me. 
-			<a style="float: right;" href="about.php"><img src="images/buttonreadmore.png" width="101" height="41" alt=""> </a><br>
-			<a href="upload.php?id=10"><img src="images/upload.png"
-				width="150" height="43" alt=""></a>
-		</p>
 	</div>
 	
 	<h1 style="font-size: 250%">Latest updates</H1>
@@ -107,7 +90,7 @@
 
 		<div class="featuresColumn">
 
-			<article class="articleform">
+			<article id="homeform">
 
 				<img style="float: right;" class="flagimage"
 					src="images/label_new red.png" alt="newbutton" width="80"
@@ -119,8 +102,8 @@
 					width="340" height="190"> 
 
 				<p>This great four peice band out of Estonia are long time friends
-					of mine.</p>
-				<p>
+					of mine.
+				
 					They consist of Jonathan flack on guitars and vocals, Rauno Vaher
 					on percussion, Hainn Hoppe on guitars and Tanel Liberg on bass.. <br>
 					<a href="thejingles.php?id=2"><img src="images/buttonreadmore.png"
@@ -139,7 +122,7 @@
 
 
 		<div class="featuresColumn">
-			<article class="articleform">
+			<article id="homeform">
 				<img style="float: right;" class="flagimage"
 					src="images/label_new red.png" alt="newbutton" width="80"
 					height="60">
@@ -172,7 +155,7 @@
 
 
 		<div class="featuresColumn">
-			<article class="articleform">
+			<article id="homeform">
 				<img style="float: right;" class="flagimage"
 					src="images/label_new red.png" alt="newbutton" width="80"
 					height="60">
@@ -183,22 +166,21 @@
 				<p>
 					<b>The internet is a wonderful place for learning about anything,</b>
 					however, the hardest part is finding good information, the needles
-					in the haystack so to speak. You can spend hours on terrible
-					tutorials with teachers who have the charm and personality of a wet
-					ashtray or days scouring through poorly put together instructions.
-				</p>
-
+					in the haystack so to speak. You can spend hours on terrible..<br>
 					<a href="learning-how-to-learn.php?id=9"><img
 					src="images/buttonreadmore.png" width="101" height="41" alt=""> </a>
 					<img
 					style="float: right;" class="flagimage"
 					src="images/movie.jpg" alt="movie" width="45" height="45">
+				</p>
+
+					
 
 			</article>
 		</div>
 
 		<div class="featuresColumn">
-			<article class="articleform">
+			<article id="homeform">
 				<img style="float: right;" class="flagimage"
 					src="images/label_new red.png" alt="newbutton" width="80"
 					height="60">
@@ -227,14 +209,14 @@
 
 		<div class="featuresColumn">
 
-			<div id="bret" class="container_gallery">
+			<article id="homeform" >
 				<div class="textopacity">
 					<img style="float: right;" class="flagimage"
 						src="images/label_new red.png" alt="newbutton" width="80"
 						height="60">
 
 
-					<h1 style="font-size: 200%">Artist profile and Gallery</h1>
+					<h1 style="font-size: 200%">Australian outback Gallery</h1>
 					<hr>
 
 					<img class="tst3" src="images/bret_profile.jpg" alt="bret and sam"
@@ -253,27 +235,32 @@
 						</a>
 					</p>
 				</div>
-			</div>
+			</article>
 
 		</div>
 
 
 
 		<div class="featuresColumn">
-			<article class="articleform">
+			<article id="homeform">
 				<img style="float: right;" class="flagimage"
 					src="images/label_new red.png" alt="newbutton" width="80"
 					height="60">
 
-				<h4>Play our cunt of the year game</h4>
+				<h4>Vocal instructor</h4>
 				<hr>
-				<img class="tst3" src="images/donaldtrump.jpg" alt="Enjoy"
-					width="150" height="150"> <br />
-				<p>
-					Simply click the link to find out whats grinding our writer Alberts
-					gears and hear what he has to say about them.... <br> <a
-						href="award.php?id=8"><img src="images/game.jpg" width="111"
-						height="77" alt=""> </a>
+				<img class="tst3" src="images/adam.jpg" alt="Enjoy"
+					width="150" height="150"> 
+				<p>Adam is a vocal instructor  whose goal is to teach and show aspiring singers how to use their 
+		instrument, for the vocal cords are an instrument, just as a violin, piano or guitar.<br>
+		</p><p> Instruments take much time and effort to learn and so does singing. If you want to see results
+		you're going to need a little help.
+		 <a
+						href="adam_singing.php?id=5"><img
+						src="images/buttonreadmore.png" width="101" height="41" alt=""> </a>
+						<img style="float: right;"
+					class="flagimage" src="images/russianflag.jpg"
+					alt="theteachermarket" width="65" height="45">
 				</p>
 			</article>
 		</div>

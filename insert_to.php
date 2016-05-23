@@ -26,7 +26,8 @@ if (isset ( $_POST ['name'] )) {
 		$captcha = $_POST ['g-recaptcha-response'];
 	}
 	if (! $captcha) {
-		echo '<h1>Please fill out the the captcha form.</h1>';
+		echo "<h1>Please fill out the the captcha form.</h1><img class='tst3' src='images/windowlicker.jpg' 
+			>";
 		exit ();
 	}
 }
@@ -71,8 +72,11 @@ if (! filter_var ( $email, FILTER_VALIDATE_EMAIL ) === false) {
 
 else {
 	
-	echo "<p>" . "Hello," . " $name" . "<br>" . "<b>" . "$email" . "</b>" . " is not a valid email address. Please go back
-		and enter a valid email address." . "</p>";
+	echo "<p>". "<img class='' src='images/windowlicker.jpg' 
+			><br>". "Hello," . " $name" . "<br>" . "<b>" . "$email" . "</b>" . " is not a valid email address. Please go back
+		and enter a valid email address." . "</p>" ."<a style='cursor: pointer' onclick='history.go(-1);return true;'
+				rel='nofollow'> <img src='images/back_button_orange_1358241199.png'
+				alt=''></a>";
 	exit ();
 }
 

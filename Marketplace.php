@@ -83,6 +83,34 @@
 			</p> <footer> </footer> </b>
 	</article>
 
+<body>
+<?php include 'sidebar_right.php'; ?>
+
+
+	<article class="articleform">
+		<img style="float: right;"class="flagimage"src="images/russianflag.jpg" alt="theteachermarket" width="80" height="60">
+		<img style="float: right;"class="flagimage"src="images/label_new red.png" alt="newbutton" width="60" height="60">
+		<header>
+			<h4>Vocal instructor</h4>
+		</header>
+		<hr>
+		<p>
+			Published:
+			<time pubdate="pubdate">18th Jan 2016</time>
+		</p>
+		<img class="tst3" src="images/adam.jpg" alt="erlbanner" width="328"
+			height="195"> 
+
+		<p>Adam is a vocal instructor  whose goal is to teach and show aspiring singers how to use their 
+		instrument, for the vocal cords are an instrument, just as a violin, piano or guitar.<br>
+		</p><p> Instruments take much time and effort to learn and so does singing. If you want to see results
+		you're going to need a little help.</p><br><p><br>
+		<a href="theteachermarket.php?id=4"><img
+					src="images/buttonreadmore.png" width="101" height="41" alt=""></a>
+
+	</article>
+	
+
 
 
 

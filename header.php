@@ -2,7 +2,15 @@
 
 <head>
 
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
 <title>Header</title>
 <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -23,17 +31,9 @@
         <li class="Teach and Learn"><a href="teach_learn.php">Teach<br>Learn</a></li>
         <li class="Marketplace"><a href="marketplace.php">Market<br>place</a></li>
         <li class="Just laughs"><a href="humour.php">Humour</a></li>
-        <li class="contact"><a href="#">Contact</a></li>        
+        <li class="contact"><a href="contact.php?id=13">Contact</a></li>        
         <li class="About"><a href="about.php">About</a></li>
-
-			<!--  <li class="search">
-				<form class="title_form" action=""><input type="button" value="Search" style="float: right">
-					<input class="title_search" type="text" maxlength="50" size="25%" placeholder="Search coming soon"
-						 value="" required="required" style=> <br>
 				
-				</form>
-			</li>
-			-->	
 		</ul>
 		
   </div>
