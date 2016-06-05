@@ -17,19 +17,22 @@
 			<li id="li_sides1">Featured Articles:</li>
 
 
-			<li id="li_sides2"><a href="thejingles.php?id=2">The<br>Jingles
+			<li id="li_sides2"><a href="thejingles.php?id=1">The<br>Jingles
 			</a> <a href="images/jingles.jpg"><img src="images/jingles.jpg"
 					width="180" height="100" alt="ratmonkey" /></a></li>
 
-			<li id="li_sides2"><a href="gallery_aus.php?id=5">Australian Gallery</a>
+			<li id="li_sides2"><a href="gallery_aus.php?id=2">Australian Gallery</a>
 				<a href="images/Trevor/broomebeach.jpg"><img
 					src="images/Trevor/broomebeach.jpg" width="180" height="100"
 					alt="ratmonkey" /></a></li>
-			<li id="li_sides4"><a href="english-for-real-life.php">English
+			<li id="li_sides4"><a href="english-for-real-life.php?id=3">English
 					Lessons</a> <a href="images/erlbanner.jpg"><img
 					src="images/erlbanner1.jpg" width="190" height="100"
 					alt="ratmonkey" /></a></li>
-
+<li id="li_sides4"><a href="adam_singing.php?id=5">Singing
+					Lessons</a> <a href="images/erlbanner.jpg"><img
+					src="images/adam.jpg" width="190" height="100"
+					alt="ratmonkey" /></a></li>
   
 			<li id="li_sides5">Donate.
 				<form class="donate_home"

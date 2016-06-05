@@ -9,10 +9,29 @@
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<?php include 'header.php'; ?>
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78511318-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 <br>
 <body id="background_humour">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NLLBSX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NLLBSX');</script>
+<!-- End Google Tag Manager -->
   <?php
 		
 		include 'sidebar_right.php';
@@ -36,7 +55,7 @@
 		
 		</header>
 		<hr>
-		<img class="tst3" src="images/Gipper.jpg" alt="theteachermarket"
+		<img class="tst3" src="images/gipper.jpg" alt="gipper"
 			width="210" height="136"> 
 		<p>Gipper is an experienced, self-employed journalist new to the comedy
 			section of the website. <br><br>Gipper, who was nameless until the age of 7,
@@ -100,8 +119,14 @@
 			<p> 
 				<small>Author: Trevor</small>
 			</p>
-		</footer>
+			 
+  
+		
 	</article>
+	</body>
+<footer>
+<?php include 'footer.php';?>
+  </footer>
 
 
 
@@ -110,6 +135,4 @@
 
 
 
-
-</body>
 </html>

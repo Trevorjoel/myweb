@@ -32,12 +32,13 @@ if (isset ( $_POST ['name'] )) {
 	}
 }
 $ip = $_SERVER ['REMOTE_ADDR'];
-$secretKey = "6Lcavx8TAAAAALEXJbyV5SCTHgFW7r8FxX58o7ti";
+$secretKey = "6LdMTSETAAAAAGa9RS6XrJfgpOFHVIHLW7tluAFo";
 $response = file_get_contents ( "https://www.google.com/recaptcha/api/siteverify?secret=" . $secretKey . "&response=" . $captcha . "&remoteip=" . $ip );
 
 define ( 'DB_NAME', 'comments' );
 define ( 'DB_USER', 'root' );
-define ( 'DB_PASSWORD', '' );
+define ( 'DB_PASSWORD', 'JrpUjMRP2I' );
+//define ( 'DB_PASSWORD', '' );
 define ( 'DB_HOST', 'localhost' );
 
 $link = mysql_connect ( DB_HOST, DB_USER, DB_PASSWORD );

@@ -54,7 +54,7 @@ if (isset ( $_POST ['first_name'] )) {
 	}
 }
 $ip = $_SERVER ['REMOTE_ADDR'];
-$secretKey = "6Lcavx8TAAAAALEXJbyV5SCTHgFW7r8FxX58o7ti";
+$secretKey = "6LdMTSETAAAAAGa9RS6XrJfgpOFHVIHLW7tluAFo";
 $response = file_get_contents ( "https://www.google.com/recaptcha/api/siteverify?secret=" . $secretKey . "&response=" . $captcha . "&remoteip=" . $ip );
 
 $first_name = filter_input ( INPUT_POST, 'first_name', FILTER_SANITIZE_STRING );
@@ -109,7 +109,7 @@ if (! empty ( $_FILES ['files'] ['name'] [0] )) {
 					
 					$file_name_new = uniqid ( '', true ) . $last_name . '.' . $file_ext;
 					
-					$file_destination = 'uploads/' . $file_name_new;
+					$file_destination = '/uploads' . $file_name_new;
 					
 					if (move_uploaded_file ( $file_tmp, $file_destination )) {
 						$uploaded [$position] = $file_destination;
@@ -162,7 +162,7 @@ if (! empty ( $_FILES ['files'] ['name'] [0] )) {
 	
 }
 
-//mail($to, $title, $msg_mail, 'From: trevoofnorthcliffe@gmail.com')
+mail($to, $title, $msg_mail, 'From: trevoofnorthcliffe@gmail.com')
 //mail ( $to, $title, $msg );
 ?>
 <div class="back"></div>

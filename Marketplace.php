@@ -16,10 +16,29 @@
   js.src = "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78511318-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 <body id="background_marketplace">
-<div id="spacer">spacer</div>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NLLBSX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NLLBSX');</script>
+<!-- End Google Tag Manager -->
+<div id="spacer">.</div>
 <?php include 'sidebar_right.php'; ?>
 
 	<div id="head_marketplace">
@@ -84,7 +103,7 @@
 	</article>
 
 <body>
-<?php include 'sidebar_right.php'; ?>
+
 
 
 	<article class="articleform">
@@ -105,7 +124,7 @@
 		instrument, for the vocal cords are an instrument, just as a violin, piano or guitar.<br>
 		</p><p> Instruments take much time and effort to learn and so does singing. If you want to see results
 		you're going to need a little help.</p><br><p><br>
-		<a href="theteachermarket.php?id=4"><img
+		<a href="adam_singing.php?id=5"><img
 					src="images/buttonreadmore.png" width="101" height="41" alt=""></a>
 
 	</article>

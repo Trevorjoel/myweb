@@ -122,4 +122,6 @@ include 'comment.php';
 		<p>
 			
 	</article>
+	</body>
+	<footer><?php include 'footer.php';?></footer>
 	

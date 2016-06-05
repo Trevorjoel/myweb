@@ -1,15 +1,48 @@
 <html>
 <head>
-
+<meta property="og:url"   content="http://alternicom.com/english-for-real-life.php?id=3/" />
+<meta property="og:type"   content="article" />
+<meta property="og:title"   content="English For Real Life" />
+<meta property="og:description" content="English For Real Life courses are tailored to the individual with an emphasis on learning for real life situations in business, travel or conversational context. By Skype or in person" />
+<meta property="og:image"    content="http://alternicom.com/images/erlbanner1.jpg" />
+<meta property="fb:app_id" content="240728822966720">          
 
 <title>English For Real Life</title>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="main.css">
 <?php include 'header.php';?>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78511318-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 <body>
+<body id="background_musicandart">
+	<script type="text/javascript">
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '240728822966720',
+      xfbml      : true,
+      version    : 'v2.6'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_GB/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 <?php include 'sidebar_right.php'; ?>
 
 
@@ -82,10 +115,15 @@ Three-month package (2 lessons per week):<br>
 
 
 <p>You can contact me via skype for your assessments. Checkout my facebook page for updates, resources, exercises and articles in English language.
-<br>Good luck with your learning.<br>Trevor</p>
+<br>Good luck with your learning.<br>Trevor<br> Like and share this article:
+<div class="fb-share-button"
+			data-href="http://alternicom.com/english-for-real-life.php?id=3"
+			data-layout="button_count" data-mobile-iframe="true"></div><br>
+			<p>Like and share the group on facebook or contact me:</p>
 <hr>
-
-<p></p> <div class="fb-like" data-href="https://www.facebook.com/English-for-real-life-653629064700485" data-width="100" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" style="float: right";></div>
+<img src="images/trevorcontact.jpg"
+				width="150" height="43" alt="">
+<p></p> <div class="fb-like" data-href="//www.facebook.com/English-for-real-life-653629064700485" data-width="100" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" style="float: right;"></div>
 <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
 <div id="SkypeButton_Call_trevor.garrity_1" style="border: none; float: none; border-radius: none; padding: none; margin: none;">
  <script type="text/javascript">
@@ -98,14 +136,15 @@ Three-month package (2 lessons per week):<br>
  </script>
     <p><a href="LINK"></a></p>
 
-  <footer>
-  </footer>
+ 
 
             <?php include 'list_comments.php'; include 'comment.php'; ?>
 </div></article>
 
 </body>
 
-
+ <footer>
+  <?php include 'footer.php';?>
+  </footer>
 
 </html>

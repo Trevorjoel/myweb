@@ -7,7 +7,15 @@
     
   </head>
   <body>
-  
+  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NLLBSX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NLLBSX');</script>
+<!-- End Google Tag Manager -->
     <div class="comment-form">
 
 		<form id="comment_form" action="insert_to.php" method="POST"
@@ -27,7 +35,7 @@
 				<textarea id="comment" class="input-fields"
 					placeholder="Comment here!" name="comment" cols="40" rows="4"
 					required='required'></textarea>
-<div class="g-recaptcha" data-sitekey="6Lcavx8TAAAAAEBbo9BcRVuHm2Iya3iWE6vgjRMJ"></div>
+<div class="g-recaptcha" data-sitekey="6LdMTSETAAAAANCTNvekuc8iitEvmEMWk4pK0hm7"></div>
 			</div>
 			<input name="submit" class="form-submit-button" type="submit"
 				id="submit" value="Submit" onclick="get()"> <input type="hidden"

@@ -4,35 +4,40 @@
 
 <div style="position: static" class="nav">
 	<ul id="footer" style="position: static">
+	
+<li style="font-size:85%;">
+	<small>Website created by: Trevor Garrity<br>All image rights to their respective owners.</small>
+		</li>
+		<li style="font-size:85%;">
+		<img src="images/trevorcontact.jpg"
+				width="100" height="43" alt=""></a>
+		</li>
+		<li>
 
-		<a href=""><img style="float: right;" class="flagimage"
-				src="images/update_post_it_note.png" alt="theteachermarket"
-				width="80" height="60"></a>
-		<img style="float: right;"
-					class="flagimage" src="images/estonianflag.jpg"
-					alt="theteachermarket" width="65" height="45">
-					<img
-					style="float: right;" class="flagimage"
-					src="images/movie.jpg" alt="movie" width="45" height="45">
-				</p>
-    <img style="float: right;"class="flagimage"src="images/albert1.jpg" alt="theteachermarket" width="80" height="60">
-    <img style="float: right;"class="flagimage"src="images/russianflag.jpg" alt="theteachermarket" width="65" height="45">
-  <img style="float: right;"class="flagimage"src="images/skypelessons.jpg" alt="theteachermarket" width="65" height="45">
 
-<img style="float: right;"class="flagimage"src="images/australianflag.jpg" alt="theteachermarket" width="65" height="45">
-          <img style="float:;"class="flagimage"src="images/cameraicon.png" alt="theteachermarket" width="45" height="45">
-          <img style="float: right;"class="flagimage"src="images/world.png" alt="theteachermarket" width="45" height="45">
-<img style="float: right;"class="flagimage"src="images/label_new red.png" alt="newbutton" width="45" height="45">
-<img style="float: right;"class="flagimage"src="images/hazard.png" alt="newbutton" width="45" height="45"><img style="float: right;"class="flagimage"src="images/do-not-enter-danger-sign-s-0906.png" alt="theteachermarket" width="65" height="45">
-    
-		 <img style="float: right;" class="flagimage"
-			src="images/label_new red.png" alt="newbutton" width="60" height="60">
-		
+				<form style="float:right;" class=""
+					action="https://www.paypal.com/cgi-bin/webscr" method="post"
+					target="_top">
+					<input type="hidden" name="cmd" value="_s-xclick"> <input
+						type="hidden" name="encrypted"
+						value="-----BEGIN PKCS7-----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-----END PKCS7-----
+"> <input type="image"
+						src="https://www.paypalobjects.com/en_AU/i/btn/btn_donateCC_LG.gif"
+						border="0" name="submit"
+						alt="PayPal — The safer, easier way to pay online."> <img alt=""
+						border="0"
+						src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif"
+						width="1" height="1">
+
+				</form>
+			</li>
+	<li>
 		<a style="float: right;" href="upload.php?id=10"><img src="images/upload.png"
-				width="150" height="43" alt=""></a>
-
-
+				width="100" height="43" alt=""></a>
+				</li>
 	</ul>
+	
+	</div>
 
 
 

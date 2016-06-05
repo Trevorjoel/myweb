@@ -7,6 +7,7 @@
 	Does not gather and display all errors from all fields before displaying the error message and exiting
 	script.
 	Does not send email to uploader.
+	Does not limit user to 10 images
 	Does not display the filenames of ALL failed extention files only the first in the array.
 	Does not show names of uploaded files in the confirmation message or email to user.
 	Does not send names of the renamed image files to the admin.
@@ -69,7 +70,7 @@ if (isset ( $_POST ['first_name'] )) {
 	}
 }
 $ip = $_SERVER ['REMOTE_ADDR'];
-$secretKey = "6Lcavx8TAAAAALEXJbyV5SCTHgFW7r8FxX58o7ti";
+$secretKey = "6LdMTSETAAAAAGa9RS6XrJfgpOFHVIHLW7tluAFo";
 $response = file_get_contents ( "https://www.google.com/recaptcha/api/siteverify?secret=" . $secretKey . "&response=" . $captcha . "&remoteip=" . $ip );
 
 //sanitize input
@@ -183,7 +184,7 @@ if (! empty ( $_FILES ['files'] ['name'] [0] )) {
 
 //Sends e-mail to user but not to
 //	ISSUE: Does not send to uploader
-//mail($to, $bus_name, $msg_mail, 'From: trevoofnorthcliffe@gmail.com')
+mail($to, $bus_name, $msg_mail, 'From: trevoofnorthcliffe@gmail.com')
 
 
 ?>

@@ -32,15 +32,8 @@
   <hr>
   <p>Published: <time pubdate="pubdate">18th Jan 2016</time></p>
  <img class="tst3"src="images/.jpg" alt="erlbanner" width="328" height="195">
-  
-
     
-
    
-      
-        <br>
-        <p><b>Name:<br>Text<br>
-          Location:<br> Text</b></p><b></b>
    <p>Author: <time pubdate="pubdate">Trevor</time></p>
 <hr>
 Insert buttons below:
@@ -170,4 +163,27 @@ Insert buttons below:
 <img style="float: right;"class="flagimage"src="images/hazard.png" alt="newbutton" width="45" height="45">
     <img style="float: right;"class="flagimage"src="images/do-not-enter-danger-sign-s-0906.png" alt="theteachermarket" width="65" height="45">
     
+    
+    	<a href=""><img style="float: right;" class="flagimage"
+				src="images/update_post_it_note.png" alt="theteachermarket"
+				width="65" height="45"></a>
+		<img style="float: right;"
+					class="flagimage" src="images/estonianflag.jpg"
+					alt="theteachermarket" width="65" height="45">
+					<img
+					style="float: right;" class="flagimage"
+					src="images/movie.jpg" alt="movie" width="45" height="45">
+				</p>
+    <img style="float: right;"class="flagimage"src="images/albert1.jpg" alt="theteachermarket" width="80" height="60">
+    <img style="float: right;"class="flagimage"src="images/russianflag.jpg" alt="theteachermarket" width="65" height="45">
+  <img style="float: right;"class="flagimage"src="images/skypelessons.jpg" alt="theteachermarket" width="65" height="45">
+
+<img style="float: right;"class="flagimage"src="images/australianflag.jpg" alt="theteachermarket" width="65" height="45">
+          <img style="float:;"class="flagimage"src="images/cameraicon.png" alt="theteachermarket" width="45" height="45">
+          <img style="float: right;"class="flagimage"src="images/world.png" alt="theteachermarket" width="45" height="45">
+<img style="float: right;"class="flagimage"src="images/label_new red.png" alt="newbutton" width="45" height="45">
+<img style="float: right;"class="flagimage"src="images/hazard.png" alt="newbutton" width="45" height="45"><img style="float: right;"class="flagimage"src="images/do-not-enter-danger-sign-s-0906.png" alt="theteachermarket" width="65" height="45">
+    
+		 <img style="float: right;" class="flagimage"
+			src="images/label_new red.png" alt="newbutton" width="60" height="60">
 </div>

@@ -8,6 +8,16 @@ if (isset ( $_GET ['id'] )) {
 ?>
     <head>
 <title>About the page</title>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78511318-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="main.css">
@@ -34,6 +44,15 @@ cm
         <?php include 'header.php'; ?>
     </head>
 <body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NLLBSX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NLLBSX');</script>
+<!-- End Google Tag Manager -->
     <?php
 				
 include 'sidebar_right.php';
@@ -46,30 +65,46 @@ include 'sidebar_right.php';
 
 	<div class="textopacity_r">
 		<p>
-			<em>This is a community of like-minded people. We are artists,
-				writers, comics, travelers, knowledge seekers, teachers, activists,
-				small business owners and entrepeneurs who share their thoughts,
-				travels, adventures, and projects. It's a place to connect with each
-				other on a global platform. Bookmark this page and check back for
-				updates regularly or submit something to us. On Facebook, there is
-				too much negativity, click bait, and misinformation. We will curate
-				our page, like a beautiful garden, only the most useful information
-				will get through to the viewers. This is a global community website
-				where we try to make a difference by supporting like-minded people.
-				Submit your ideas, articles, stories and promote yourself here (LINK
-				TO CONTACTS)</em>
+			<em>Alternicom is short for, alternative community. <br>Alternative to the mainstream madness.<br><br> 
+			We are artists, writers, comics, travelers, knowledge seekers, teachers, activists, 
+			small business owners and entrepreneurs. We share our , travels, adventures, stories and 
+			projects.  <br><br>Make a difference by supporting like-minded people, people who are sick of the 
+			systems shit.  <br>We are looking for the unrecognized, ethical geniuses to entertain and whose work 
+			to promote on our global platform. <br><br>
+
+
+
+
+We will curate our page, like a beautiful garden, only the most useful information will get through to you.<br><br> 
+
+Bookmark this page and check back for updates regularly.  <br><br>
+Submit something to us, see below.  </em>
 		</p>
 
 	</div>
-	<h1 id="sub" style="font-size: 250%">Search function</h1>
+	<h1 id="sub" style="font-size: 250%">Search function/icons</h1>
 	<div class="textopacity_r">
 		<p>
-			<em>If you are looking for an article, want to find a service or
-				connect with someone by locality, all posts have been tagged by
-				topic and location. Thus, all information is able to be recalled
-				with the search function. HERE! Click the flags you see to find all
-				information from your country. Or feel free to browse, there is
-				something for everybody.</em>
+			<em>Coming soon!</em><br><br>Soon the site will have a search
+			feature.<br><img src="images/search.jpg" alt="theteachermarket" ><br><br> Also clickable icons to help you find what you need. <br>For example country flags will take you to all the content related to the country.
+			. <br><img class="flagimage"src="images/australianflag.jpg" alt="theteachermarket" width="65" height="45">
+			<img class="flagimage"src="images/russianflag.jpg" alt="theteachermarket" width="65" height="45"><br>
+		<br>
+		Photo and video gallery icons take you to all articles containing image galleries and videos.<br>
+		<img style="float:;"class="flagimage"src="images/cameraicon.png" alt="theteachermarket" width="45" height="45">
+		<img
+					src="images/movie.jpg" alt="movie" width="45" height="45"><br><br>
+					New content will have the 'new' icon, one click will take you to all the latest content.<br>
+					<img class="flagimage"src="images/label_new red.png" alt="newbutton" width="45" height="45"><br>
+		<br>Update icon will show you that old articles have been updated.
+		<br><img
+				src="images/update_post_it_note.png" alt="theteachermarket"
+				width="65" height="45"><br><br>
+				And of course you will see the, now functioning upload icon.
+				<br><a  href="upload.php?id=10"><img src="images/upload.png"
+				width="150" height="43" alt=""></a>
+				<br><br>More to be added as the site develops.
+		
 		</p>
 	</div>
 	<h1 id="sub" style="font-size: 250%">Topics</h1>
@@ -122,7 +157,7 @@ include 'sidebar_right.php';
 		<a href="marketplace.php">Marketplace</a>
 	</h4>
 	<div class="textopacity_r">
-		<p>The marketplace is a haeven for small businesses, artists and
+		<p>The marketplace is a haven for small businesses, artists and
 			entrepreneurs to offer their products and services. You are welcome
 			to (Submit), browse or use the search function to find what you need.
 			Currently we have a great selection of English teachers in Moscow and
@@ -162,6 +197,9 @@ include 'sidebar_right.php';
 	</div>
 
 </body>
+ <footer>
+  <?php include 'footer.php';?>
+  </footer>
 </html>
 
 
