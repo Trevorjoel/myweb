@@ -2,7 +2,16 @@
 	xmlns:fb="http://www.facebook.com/2008/fbml">
 
 <head>
-
+<!--  google meta -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Alterincom, the intelligent alternative.</title>
+<link rel="canonical" href="http://alternicom.com/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords"
+	content="media, music, travel,  best music, humour">
+<meta name="description"
+	content="The way to spread good ideas. Welcome artists, writers, comics, travelers, knowledge seekers, teachers, activists, and entrepreneurs. ">
+<!-- FB meta -->
 <meta property="og:url" content="http://alternicom.com/" />
 <meta property="og:type" content="website" />
 <meta property="og:title"
@@ -12,12 +21,11 @@
 <meta property="og:image"
 	content="http://alternicom.com/images/welcome.jpg" />
 <meta property="fb:app_id" content="240728822966720">
-<title>Alternicom, the alternative,intelligent community to help spread
-	good ideas</title>
 
 
 
-<meta charset="utf-8">
+
+
 
 
     <?php include 'header.php'; ?>
@@ -31,7 +39,7 @@
 </head>
 
 <body>
-
+	<!-- FB javascript -->
 	<script type="text/javascript">
   window.fbAsyncInit = function() {
     FB.init({
@@ -58,109 +66,84 @@
 		data-layout="button_count" data-action="like" data-show-faces="true"
 		data-share="true"></div>
 
-	<h1 style="font-size: 250%">Latest updates</H1>
+	<h1 style="font-size: 250%">Site news</H1>
 
 
-	<hr>
-	<div class="flexbox">
-		<article id="articleform_home">
-			<header>
-				<h4>Welcome friends!</h4>
-			</header>
 
-			<hr>
-			<br>
-			<iframe width="854" height="480"
-				src="https://www.youtube.com/embed/z7i-9JAgNvk" frameborder="0"
-				allowfullscreen></iframe>
-			<p>
-				Hello visitors and welcome to version 1.0 of my site. <br>This video
-				gives you a little background and takes you for a walk through.<br>
-				I think I did forget to mention the donate button.<br>
-				<br> I have worked very hard, the site will always be free but it
-				would be the ultimate compliment to receive something for it.<br>
-				<br> On a technical note, the site is only as good as my knowledge
-				of development. Thus, some features are incomplete.<br>
-				<br> Some new/improved features will be coming soon, when I begin to
-				tackle javascript, such as search features and improved image
-				galleries. <br>
-				<br> I can't stress enough how much I will appreciate people using
-				my site, contributing articles, sharing articles and giving feedback
-				to me.<br>
-				<br>Thank you.
-			</p>
-			<p>
-				Author:
-				<time>Trevor</time>
-			</p>
-			<hr>
-			<footer> </footer>
-			<!-- 
 
-			<header>
-				<h4>Site testers!</h4>
-			</header>
-			
-			<hr>
-			<p>
-				Published:
-				<time pubdate="pubdate">Date</time>
-			</p>
-			<img class="img" src="images/notice.png" alt="erlbanner" width="328"
-				height="195">
-			<p>
-				This site is in the test phase. <br>You have been chosen to test my
-				site. <br>Please try all the features and report back to me. <br>
-				You can view the code here: <a
-					href="https://github.com/Trevorjoel/myweb">https://github.com/Trevorjoel/myweb</a>
-				I'm looking for various issues not limited to the following. <br> <br>
-				1) Can you hack it? (developers). SQL injections particularly can
-				you insert data to my base (sexy time) can you somehow get a script
-				to run on the page, spam me or any other nasties I might not be
-				aware of. <br> <br> 2) Style (designers), Are there any obvious
-				problems with the design, functionality and look of the site? <br> <br>
-				3) Feeling. (Everyone/designers) is it nice upon the eyes? Does it
-				have the appearance of an intelligent place to gather information,
-				entertain yourself. <br> <br> 4) Functionality/features/content. Are
-				there any extra features you would like to see? Is the content
-				interesting or would you like to see something else (yes I'm waiting
-				for more Travel and community content). <br>Are there any broken
-				links or issues I may not have seen? <br> <br> 5) Writing. How do
-				you like the writing style? Are there any obvious
-				spelling/grammatical errors? What about the format in the articles,
-				is there any guides you think I should read to improve things? <br>
-				<em><br>
-				<br>Notice: Be sure the url says index.php?id=11 if you want to make
-					a comment below. <br<br>Notice: I may
-					be giving you the temporary URL in hopes you will write some content
-					for me. You may negotiate a deal in exchange for your efforts, try
-					me.</em> <br>You can use the comment form below to message me your
-				thoughts as any feedback is much appreciated.
-			</p>
-			<br>
+	<article id="articleform_home" style="width: 94.4%">
+		<header>
+			<h4>Welcome friends!</h4>
+		</header>
 
-			<p>
-				Author:
-				<time pubdate="pubdate">Trevor</time>
-			</p>
-			<hr>
-			<footer> </footer>
+		<hr>
+		<br>
+		<p>
+			Hello visitors and welcome to version 1.0 of my site. <br>have a little walk through.<br>
+			 <br> I have
+			worked very hard, the site will always be free but it would be the
+			ultimate compliment to receive something for it.<br> <br> On a
+			technical note, the site is only as good as my knowledge of
+			development. Thus, some features are incomplete.<br> <br> Some
+			new/improved features will be coming soon, when I begin to tackle
+			javascript, such as search features and improved image galleries. <br>
+			<br> I can't stress enough how much I will appreciate people using my
+			site, contributing articles, sharing articles and giving feedback to
+			me.<br> <br>Thank you.
+		</p>
+		<p>
+			Author:
+			<time>Trevor</time>
+		</p>
+		<hr>
+		
+		<header>
+			<h4>Update</h4>
+			<img style="float: right;" class="flagimage"
+				src="images/update_post_it_note.png" alt="theteachermarket"
+				width="65" height="45"></a>
+				
+			<p>Published: <time pubdate="pubdate">21st July 2016</time></p>
+		</header>
+		<p>Hi friends.<br>
+		I have added a new article and a slider feature in the sidebar to the right. I am currently in Estonia and shall write an article about the town shortly.</p>
+		<p>
+			Author:
+			<time>Trevor</time>
+		</p>
+		
+		
+	</article>
+	<h1 style="font-size: 250%">Latest updates</h1>
 
-          -->
-		</article>
+<div class="flexbox">
 		<div class="featuresColumn">
 
 			<article id="homeform">
+			<img style="float: right;"class="flagimage"src="images/label_new red.png" alt="newbutton" width="80" height="60">
+<header> <h4>Trolling Fun Chick</h4></header>
+  <hr>
+  <p>Published: <time pubdate="pubdate">21st July 2016</time></p>
+  <!-- Article title image -->
+ <img class="tst3"src="images/troll.jpg" alt="erlbanner" width="328" height="195">
+   <p> <em>Background:</em></p><p>This is a fried chicken business my friends and I used to eat their chicken as children. <br> 
+   I recently saw their <a href="http://funchick.com.au/index.html" style="color:blue;">website</a> and noticed it needed upgrading.
+   </p>
+   <a href="trolling.php?id=13"><img
+					src="images/buttonreadmore.png" width="101" height="41" alt=""></a>
+</article>
 
-				<img style="float: right;" class="flagimage" src="images/movie.jpg"
-					alt="movie" width="45" height="45"> <img style="float: right;"
-					class="flagimage" src="images/label_new red.png" alt="newbutton"
-					width="80" height="60">
-				<header>
+		</div>
+
+	
+		<div class="featuresColumn">
+		<article id="homeform">
+
+			
 					<h4>Prophets of rage</h4>
 				</header>
 				<hr>
-			
+
 				<!-- Article title image -->
 				<img class="tst3" src="images/por.jpg" alt="erlbanner" width="328"
 					height="195">

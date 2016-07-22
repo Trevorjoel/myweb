@@ -5,13 +5,37 @@
 
 	<div class="nav">
 		<ul id="ul_sides">
-			<li id="li_sides_search">
-				<form class="title_form" action="">
-					<input class="title_search" type="text" maxlength="50" size="25%" placeholder="Search coming soon"
-						 value="" required="required" style=> <input type="button" value="Search" style="float: right"><br>
+		
+			<li id="li_sides2">Check out our sections:
+		
+		<div class="slider">
+		<figure>
+			<div class="slide">
+				<a href="musicandart.php"><img style="image-size:100%;" src="images/music_slider.jpg"></a>
 				
-				</form>
-			</li>
+				</div>
+
+			<div class="slide">
+			<a href="travel.php?id=6">	<img src="images/travel_slider.jpg"></a>
+			</div>
+
+			<div class="slide">
+				<a href="marketplace.php"><img src="images/marketplace_slider.jpg"></a>
+			</div>
+
+			<div class="slide">
+			<a href="humour.php?">	<img src="images/humour_slider.jpg"></a>
+			</div>
+
+			<div class="slide">
+				<a href="teach_learn.php?"><img src="images/teach_slider.jpg"></a>
+			</div>
+		</figure>
+		
+	</div>
+		</li>
+		
+			
 		
 				
 			<li id="li_sides1">Featured Articles:</li>
@@ -51,6 +75,13 @@
 
 				</form> Or visit our partners below!
 			</li>
+			<li id="li_sides_search">
+				<form class="title_form" action="">
+					<input class="title_search" type="text" maxlength="50" size="25%" placeholder="Search coming soon"
+						 value="" required="required" style=> <input type="button" value="Search" style="float: right"><br>
+				
+				</form>
+			
 			
 		</ul>
 	</div>

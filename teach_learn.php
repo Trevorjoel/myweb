@@ -98,20 +98,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			been chosen and who it is for.<br> <b>Format:</b> Is it video
 			tutorial.<br> <b>Prior learning:</b>Basic computing.<br>
 		</p>
-		<p>Telephone, Moscow 8-925-003-3019.</p>
-		<p>
-			<a href="https://twitter.com/teachersmarket">twitter</a>
-		</p>
-		<p>You can start browsing teachers on their website by clicking the
-			icon below.</p>
-		<p>Please like and share their Facebook page below.</p>
-		<a href="www.theteachermarket.com"><img
-			src="images/theteachermarket.jpg" alt="theteachermarket" width="102"
-			height="61" border="0" /></a>
-		<div class="fb-like"
-			data-href="https://www.facebook.com/theteachermarket"
-			data-layout="standard" data-action="like" data-show-faces="true"
-			data-share="true"></div>
+		
 
 
 

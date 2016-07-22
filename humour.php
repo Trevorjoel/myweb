@@ -3,8 +3,8 @@
 <head>
 
 <title>Humour</title>
-	<!--  <script type="text/javascript"> alert("You have entered the humour area of the site. You are guaranteed to be offended. Please click back if you are a whiney little bitch, otherwise click ok to continue.");</script>
--->
+	 <script type="text/javascript"> alert("You have entered the humour area of the site. You are guaranteed to be offended. Please click back if you are going to be a whining little bitch, otherwise click ok to continue.");</script>
+
 
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet"
@@ -40,6 +40,44 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<h1 id="humour">Humour</h1>
 	
 	</div>
+	
+	 <article class="articleform">
+	 <img style="float: right;"class="flagimage"src="images/label_new red.png" alt="newbutton" width="80" height="60">
+<header> <h4>Trolling Fun Chick</h4></header>
+  <hr>
+  <p>Published: <time pubdate="pubdate">21st July 2016</time></p>
+  <!-- Article title image -->
+ <img class="tst3"src="images/troll.jpg" alt="erlbanner" width="328" height="195">
+   <p> <em>Background:</em></p><p>This is a fried chicken business my friends and I used to eat their chicken as children. <br> 
+   I recently saw their <a href="http://funchick.com.au/index.html" style="color: blue;">website
+   </a> and noticed it needed upgrading.<br>
+	 <a href="trolling.php?id=13/"><img
+					src="images/buttonreadmore.png" width="101" height="41" alt=""></a>
+</article>
+  <article class="articleform"><img
+					style="float: right;" class="flagimage"
+					src="images/movie.jpg" alt="movie" width="45" height="45">
+
+<img style="float: right;"class="flagimage"src="images/label_new red.png" alt="newbutton" width="80" height="60">
+
+		<header>
+			<h4>Trev plays Bogan Dave in the game Facade.</h4>
+		</header>
+		<hr>
+		<p>
+			Published:
+			<time pubdate="pubdate">7th June 2016</time>
+		</p>
+		<img class="tst3" src="images/facade.jpg" alt="erlbanner" width="328"
+			height="195">
+			<p><em>For those who know what a bogan is.</em><br>I found this game online called facade where you have to act as a 
+			mediator between two two married friends. <br><br>The aim of the game is to get them to talk through their troubles and 
+			end the night on happy terms.<br> I play the game as Davo' the bogan who loves ACDC, 
+smashin' the piss and durries....<br>
+<a href="facade.php?id=12"><img src="images/buttonreadmore.png"
+			width="101" height="41" alt=""></a>
+  </p>
+  </article>
 
 <article class="articleform">
 		<img style="float: right;" class="flagimage"
