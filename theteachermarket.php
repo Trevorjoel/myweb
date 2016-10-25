@@ -16,7 +16,7 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="main.css">
-<?php include 'header.php';?>
+<?php include 'header1.1.php';?>
 <!-- Google Analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -78,7 +78,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
  
 
-<article class=articleform>
+<article class="articleform bottom-spacer">
   <header>
     <H4>English lessons in Moscow</H4>
     <hr>
@@ -117,8 +117,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <p><small>Creative Commons Attribution-ShareAlike License</small></p>
    
   
-
+<h2 class="comments-wrapper-heading">Comments:</h2>
+ <div class="fb-comments" data-href="http://alternicom.com/theteachermarket.php?id=4" data-width="800" data-numposts="10"></div>
 </article>
 <footer>
-<?php include 'footer.php';?>
+<?php include 'footer1.1.php';?>
   </footer>

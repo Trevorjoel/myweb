@@ -6,7 +6,7 @@
 		href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="main.css">
 	<script src='https://www.google.com/recaptcha/api.js'></script>
-<?php include 'header.php';?>
+<?php include 'header1.1.php';?>
 	</header>
 	
 	<?php include 'sidebar_right.php'; ?>

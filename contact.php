@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<?php include 'header.php'; ?>
+<?php include 'header1.1.php'; ?>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -42,7 +42,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <h1>Contact</h1>
 
- <article class="articleform">
+ <article class="articleform featuresColumn">
 
   <header> <h4>Contact us</h4></header>
   <hr>

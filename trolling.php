@@ -1,4 +1,8 @@
+<html>
 <head>
+  <link rel="stylesheet" href="main.css">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <!-- FB meta -->
 <meta property="og:url" content="alternicom.com/trolling.php?id=13" />
 <meta property="og:type" content="article" />
@@ -20,10 +24,8 @@
 <meta name="description"
 	content="I troll an Austalian business by offering a new style to their website, hilarity ensues.">
 
-    <?php include 'header.php'; ?>
-    <link rel="stylesheet" href="main.css">
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <?php include 'header1.1.php'; ?>
+  
 
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"
@@ -48,6 +50,15 @@
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 </script>
+<div id="fb-root"></div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7&appId=1097129573643673";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	<!-- google Analytics  -->
 	<script type="text/javascript">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -59,9 +70,9 @@
   ga('send', 'pageview');
 
 </script>
+<br><br><br>
 <?php include 'sidebar_right.php'; ?>
-	<div id="spacer">.</div>
-	<div id="spacer">.</div>
+	
 
 	<article class="articleform">
 	
@@ -92,6 +103,7 @@ Being older Australians I am almost certain that they have been caught up in the
 			<time pubdate="pubdate">Trevor</time>
 			<br> <br>Share this article with friends:
 		</p>
+		
 		<div class="fb-like"
 			data-href="http://alternicom.com/trolling.php?id=13"
 			data-layout="button_count" data-action="like" data-show-faces="true"
@@ -99,15 +111,16 @@ Being older Australians I am almost certain that they have been caught up in the
 			
 			<!-- Fb Share button END -->
 			
-			<hr>
+			
 		
 		
 		
 			
 			<footer> </footer>
+			<hr>
+			<br>
 
-					<?php include 'list_comments.php'; include 'comment.php'; ?>
-
+					<div class="fb-comments" data-href="http://alternicom.com/trolling.php?id=13" data-numposts="10"></div>
 	</article>
 </body>
 <footer></footer>

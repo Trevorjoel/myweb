@@ -3,7 +3,7 @@
 <head>
 <title>award</title>
 <link rel="stylesheet" href="main.css">
-	<?php include 'header.php'; ?>
+	<?php include 'header1.1.php'; ?>
 	<? include("insert_to.php"); ?>
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -29,7 +29,7 @@
 echo '<h1>Alberts "Cunt of the year award"</h1>';
 
 ?>
- <article class="articleform">
+ <article class="articleform bottom-spacer">
    
 <?php
 
@@ -177,15 +177,13 @@ switch ($winner) {
 
 
 				
-include 'list_comments.php';
-				include 'comment.php';
-				?>
+?>
       			
 				 
 
  
 </article>
 </body>
-<?php include 'footer.php';?>
+<?php include 'footer1.1.php';?>
 	</html>
 

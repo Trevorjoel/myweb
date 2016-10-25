@@ -24,7 +24,7 @@
 <meta name="description"
 	content="A couple invites their bogan mate over for relationship help hilarity ensues. ">
 
-    <?php include 'header.php'; ?>
+    <?php include 'header1.1.php'; ?>
     <link rel="stylesheet" href="main.css">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -67,7 +67,7 @@
 	<div id="spacer">.</div>
 	<div id="spacer">.</div>
 
-	<article class="articleform"><img
+	<article class="articleform bottom-spacer"><img
 					style="float: right;" class="flagimage"
 					src="images/movie.jpg" alt="movie" width="45" height="45">
 
@@ -113,9 +113,10 @@ smashin' the piss and durries. This episode Davo's a bit touchy feeley and wants
 			
 			<footer> </footer>
 
-					<?php include 'list_comments.php'; include 'comment.php'; ?>
-</div>
+					<h2 class="comments-wrapper-heading">Comments:</h2>
+ <div class="fb-comments" data-href="http://alternicom.com/facade.php?id=12" data-width="800" data-numposts="10"></div>
+
 	</article>
 </body>
-<footer></footer>
+<footer><?php include 'footer1.1.php';?></footer>
 </html>

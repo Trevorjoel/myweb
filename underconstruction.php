@@ -1,4 +1,5 @@
 <html>
+<head><title>Page under construction!</title>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -10,24 +11,21 @@
 
 </script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="main.css">
-<?php include 'header.php';?>
+
+<?php include 'header1.1.php';?>
+
+</head>
 <?php include 'sidebar_right.php';
 ?>
+<link rel="stylesheet" href="main.css">
 <body ID="altbackground2">
 <div id="spacer">
   </div>
   
-<div id="spacer">
-  </div>
-  
-<div id="spacer">
-  </div>
-  <div id="spacer"></div>
 
 
 <h1>UNDER CONSTRUCTION!</h1>
-<article class=articleform>
+<article class="articleform featuresColumn">
 
 <p>Sorry, this part of the site is currently being worked on and will be up soon. Check back at a later date.
 </p><p>Use the navigation bars at the top and side of the page to find something interesting.</p>
@@ -35,5 +33,5 @@
 </article>
 </body>
 <?php include 'yourarticle.php';  ?>
- <?php include 'footer.php';?>
+ <?php include 'footer1.1.php';?>
 </html>

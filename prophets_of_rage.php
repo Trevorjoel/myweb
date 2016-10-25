@@ -14,7 +14,7 @@
 	<title>Prophets of Rage</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="main.css">
-<?php include 'header.php';?>
+<?php include 'header1.1.php';?>
 <!-- Google Analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -118,8 +118,9 @@ Sounds good to me.</p><p>
 <p></p> <br><div class="fb-like" data-href="https://www.facebook.com/TheProphetsofRage/" data-width="100" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" style="float: left<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"
 	type="text/javascript"></script>";></div>
 
- <?php include 'list_comments.php'; include 'comment.php'; ?>
+<h2 class="comments-wrapper-heading">Comments:</h2>
+ <div class="fb-comments" data-href="http://alternicom.com/prophets_of_rage.php?id=11" data-width="800" data-numposts="10"></div>
     </article>
     </body>
-<footer><?php include 'footer.php';?></footer>
+<footer><?php include 'footer1.1.php';?></footer>
 </html>

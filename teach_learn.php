@@ -5,8 +5,8 @@
 
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="main.css">
-    <div id="fb-root"></div>
+
+    <?php include 'header1.1.php';?>
 	<script type="text/javascript">(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
           if (d.getElementById(id)) return;
@@ -15,7 +15,7 @@
                 fjs.parentNode.insertBefore(js, fjs);
                   }(document, 'script', 'facebook-jssdk'));
     </script>
-  <?php include 'header.php';?>
+  
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -29,20 +29,8 @@
   </head>
 
 <body>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NLLBSX"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NLLBSX');</script>
-<!-- End Google Tag Manager -->
-<div id="spacer">spacer
-  </div> 
-     <?php include 'sidebar_right.php'; ?>
-  
 
+ <?php include 'sidebar_right.php'; ?>
   
 	<div id="head_teach">
 		<h1 id="teach";>Teach, learn and share</h1>
@@ -116,11 +104,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</article>
 
     
-     
+    <?php include 'yourarticle.php';  ?>
 
-<?php include 'yourarticle.php';  ?>
+
+
+
 </body>
-
-<footer><?php include 'footer.php';?></footer>
-
+<footer><?php include 'footer1.1.php'; ?></footer>
 </HTML>

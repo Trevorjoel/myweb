@@ -16,7 +16,7 @@
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="main.css">
-    <?php include 'header.php';?>
+    <?php include 'header1.1.php';?>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -66,7 +66,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<br>
 	<br>
 	<h1 style="font-size: 250%">Learning how to learn</h1>
-	<article class="articleform">
+	<article class="articleform bottom-spacer">
 
 
 
@@ -188,8 +188,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			data-share="true"></div>
 		</footer>
            
-            <?php include 'list_comments.php'; include 'comment.php'; ?>
+             			<h2 class="comments-wrapper-heading">Comments:</h2>
+ <div class="fb-comments" data-href="http://alternicom.com/learning-how-to-learn.php?id=7" data-width="800" data-numposts="10"></div>
     </article>
-    <?php include 'footer.php';?>
+    <?php include 'footer1.1.php';?>
     </body>
 </html>

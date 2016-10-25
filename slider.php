@@ -6,7 +6,7 @@
 	<title></title>
 </head>
 <body>
-	<div class="slider">
+	<div class="slider img-responsive title-area">
 		<figure>
 			<div class="slide">
 				<a href="www.youtube.com"><h1>Music and Art</h1><img src="images/music_slider.jpg"></a>

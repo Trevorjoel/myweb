@@ -21,7 +21,7 @@
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="main.css">
   <?php
-		include 'header.php';
+		include 'header1.1.php';
 		?>
 <script type="text/javascript">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -83,12 +83,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-	<div id="spacer">spacer</div>
+	
 
 
 
 
-	<article class="articleform">
+	<article class="articleform bottom-spacer">
 		<header>
 			<img style="float: right;" class="flagimage"
 				src="images/label_new red.png" alt="newbutton" width="80"
@@ -96,7 +96,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				src="images/estonianflag.jpg" alt="theteachermarket" width="80"
 				height="60">
 			<h1>The Jingles</h1>
-			<hr>
+			
 			<h4>My Estonian friends</h4>
 			<hr>
 		</header>
@@ -161,14 +161,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="fb-like" data-href="//www.facebook.com/jinglesalltheway"
 			data-width="100" data-layout="standard" data-action="like"
 			data-show-faces="true" data-share="true" style=""></div>
-                     
-    
-    <?php
-				include 'list_comments.php';
-				include ('comment.php');
-				
-				?>
+                     <hr>
+    <h2 class="comments-wrapper-heading">Comments:</h2>
+  <div class="fb-comments" data-href="http://alternicom.com/thejingles.php?id=1" data-width="800" data-numposts="10"></div>
   <footer> </footer>
 	</article>
-<?php include 'footer.php';?></body>
+<?php include 'footer1.1.php';?></body>
 </html>

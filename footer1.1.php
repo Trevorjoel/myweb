@@ -1,68 +1,35 @@
+<html>
+<head>
+<title></title>
+
+
+
+
 <link rel="stylesheet" href="main.css">
-<div class="sidebar_right bottom-spacer">
+</head>
+<body>
+	<div class="container-fluid navbar navbar-inverse navbar-fixed-bottom">
+		<div class="row">
 
-	<br>
+			<div class=" col-xs-2 col-sm-2 col-lg-2">
+				<a href="upload.php?id=10"><img src="images/upload.png" width="90"
+					height="40" alt=""></a>
+			</div>
 
-	<div class="nav">
-		<ul class="ul_sides li_image">
-		
-			<li id="li_sides2">Our sections:
-		<br><br>
-		<div class="slider">
-		<figure>
-			<div class="slide">
-				<a href="musicandart.php"><img  style="image-size:100%;" src="images/music_slider.jpg"></a>
-				
+			<div class=" col-xs-2 col-sm-2 col-lg-2">
+				<small>Website created by: Trevor Garrity</small>
 				</div>
-
-			<div class="slide">
-			<a href="travel.php?id=6">	<img src="images/travel_slider.jpg"></a>
+			<div class="  col-xs-3 col-sm-3 col-lg-3">	
+				<small>All image rights to their
+					respective owners. </small>
 			</div>
 
-			<div class="slide">
-				<a href="marketplace.php"><img src="images/marketplace_slider.jpg"></a>
+			<div class=" col-xs-2 col-sm-2 col-lg-2">
+				<img src="images/trevorcontact.jpg" width="100" height="43" alt="">
 			</div>
 
-			<div class="slide">
-			<a href="humour.php?">	<img src="images/humour_slider.jpg"></a>
-			</div>
-
-			<div class="slide">
-				<a href="teach_learn.php?"><img src="images/teach_slider.jpg"></a>
-			</div>
-		</figure>
-		
-	</div>
-		</li>
-		
-			
-		<hr>
-				
-			<li id="li_sides1">Featured Articles:</li>
-
-<hr>
-			<li id="li_sides2"><a href="thejingles.php?id=1">The Jingles
-			</a><br><br> <a href="images/jingles.jpg"><img class="li_image" src="images/jingles.jpg"
-					width="180" height="100" alt="ratmonkey" /></a></li>
-<hr>
-			<li id="li_sides2"><a href="gallery_aus.php?id=2">Australian Gallery</a>
-				<br><br><a href="images/Trevor/broomebeach.jpg"><img class="li_image"
-					src="images/Trevor/broomebeach.jpg" width="180" height="100"
-					alt="ratmonkey" /></a></li>
-					<hr>
-			<li id="li_sides4"><a href="english-for-real-life.php?id=3">English
-					Lessons</a><br> <br><a href="images/erlbanner.jpg"><img class="li_image"
-					src="images/erlbanner1.jpg" width="190" height="100"
-					alt="ratmonkey" /></a></li>
-					<br><hr>
-<li id="li_sides4"><a href="adam_singing.php?id=5">Singing
-					Lessons</a> <br><br><a href="images/erlbanner.jpg"><img class="li_image"
-					src="images/adam.jpg" width="190" height="100"
-					alt="ratmonkey" /></a></li>
-  <br><hr>
-			<li id="li_sides5">Donate.
-				<form class="donate_home"
-					action="https://www.paypal.com/cgi-bin/webscr" method="post"
+			<div style="float: right" class=" col-xs-3 col-sm-3 col-lg-3">
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post"
 					target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick"> <input
 						type="hidden" name="encrypted"
@@ -75,21 +42,14 @@
 						src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif"
 						width="1" height="1">
 
-				</form> Or visit our partners below!
-			</li>
-			<hr>
-			<li id="li_sides_search">
-				<form class="title_form" action="">
-					<input class="title_search" type="text" maxlength="50" size="25%" placeholder="Search coming soon"
-						 value="" required="required" style=> <input type="button" value="Search" style="float: right"><br>
-				
 				</form>
-			
-			
-		</ul>
+			</div>
+		</div>
+
+
 	</div>
-</div>
-<div></div>
 
 
-
+</body>
+<footer></footer>
+</html>

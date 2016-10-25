@@ -42,7 +42,7 @@ cm
 ;
 }
 </style>
-        <?php include 'header.php'; ?>
+        <?php include 'header1.1.php'; ?>
     </head>
 <body>
 <!-- Google Tag Manager -->
@@ -199,7 +199,7 @@ Submit something to us, see below.  </em>
 
 </body>
  <footer>
-  <?php include 'footer.php';?>
+  <?php include 'footer1.1.php';?>
   </footer>
 </html>
 

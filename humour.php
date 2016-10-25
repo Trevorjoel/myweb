@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<?php include 'header.php'; ?>
+<?php include 'header1.1.php'; ?>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -20,6 +20,7 @@
   ga('send', 'pageview');
 
 </script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 
 
@@ -33,15 +34,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-NLLBSX');</script>
 <!-- End Google Tag Manager -->
-   <div id="spacer">spacer
-  </div>
+   
 <?php include 'sidebar_right.php'; ?>
    <div id="head_humour">
 		<h1 id="humour">Humour</h1>
 	
 	</div>
 	
-	 <article class="articleform">
+	 <article class="articleform featuresColumn">
 	 <img style="float: right;"class="flagimage"src="images/label_new red.png" alt="newbutton" width="80" height="60">
 <header> <h4>Trolling Fun Chick</h4></header>
   <hr>
@@ -54,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	 <a href="trolling.php?id=13/"><img
 					src="images/buttonreadmore.png" width="101" height="41" alt=""></a>
 </article>
-  <article class="articleform"><img
+  <article class="articleform featuresColumn"><img
 					style="float: right;" class="flagimage"
 					src="images/movie.jpg" alt="movie" width="45" height="45">
 
@@ -79,7 +79,7 @@ smashin' the piss and durries....<br>
   </p>
   </article>
 
-<article class="articleform">
+<article class="articleform featuresColumn">
 		<img style="float: right;" class="flagimage"
 			src="images/label_new red.png" alt="newbutton" width="80" height="60">
 
@@ -168,7 +168,7 @@ smashin' the piss and durries....<br>
 		</footer>
 	</article>
 
-	<article class="articleform">
+	<article class="articleform featuresColumn">
 		<header>
 			<img style="float: right;" class="flagimage"
 				src="images/label_new red.png" alt="newbutton" width="80"
@@ -197,7 +197,7 @@ smashin' the piss and durries....<br>
 		</footer>
 	</article>
 	
-	<article class="articleform">
+	<article class="articleform featuresColumn">
   <header>
     <img style="float: right;"class="flagimage"src="images/label_new red.png" alt="newbutton" width="80" height="60">
 
@@ -213,7 +213,7 @@ Unfortunately, Gipper does not  know his surname so simply goes by Gipper.  </p>
   <a href="gipper.php?id=0"><img src="images/buttonreadmore.png" width="101" height="41" alt=""></a>
   </article>
 
-	<article class="articleform">
+	<article class="articleform featuresColumn">
 		<img style="float: right;" class="flagimage"
 			src="images/update_post_it_note.png" alt="theteachermarket"
 			width="80" height="60"> <img style="float: right;" class="flagimage"
@@ -259,7 +259,7 @@ Unfortunately, Gipper does not  know his surname so simply goes by Gipper.  </p>
 		</footer>
 	</article>
 
-	<article class="articleform">
+	<article class="articleform featuresColumn">
 		<header>
 			<img style="float: right;" class="flagimage"
 				src="images/label_new red.png" alt="newbutton" width="80"
@@ -289,5 +289,6 @@ Unfortunately, Gipper does not  know his surname so simply goes by Gipper.  </p>
 <?php include 'yourarticle.php';  ?>
 
 </body>
-<?php include 'footer.php';?>
+<footer><?php include 'footer1.1.php';?></footer>
+<div id="spacer">.</div>
 </html>

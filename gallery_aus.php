@@ -13,7 +13,7 @@
 	<!-- Open Graph End -->
 <title>Gallery</title>
 <link rel="stylesheet" href="main.css">
-<?php include 'header.php';?>
+<?php include 'header1.1.php';?>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -61,7 +61,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<br>
 	<h1>Artist profile and Gallery</h1>
 
-	<div id="bret" class="wrapper">
+	<div id="bret" class="wrapper bottom-spacer">
 		<div class="textopacitybottom">
 <h4>Images of the sunburnt country</h4>
 			<hr>
@@ -392,14 +392,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				them.</p><span class="ig-follow" data-id="3dcbd1f08d" data-handle="gypsies_adrift" data-count="true" data-size="small" data-username="true"></span>
 			<script>(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src="//x.instagramfollowbutton.com/follow.js";s.parentNode.insertBefore(g,s);}(document,"script"));</script>
 			<footer>Taken by Bret and Sam.</footer>
- 			
+ 			<h2 class="comments-wrapper-heading">Comments:</h2>
+ <div class="fb-comments" data-href="http://alternicom.com/gallery_aus.php?id=2" data-width="800" data-numposts="10"></div>
  			</div>	
  		</div>
- <?php 
- include 'list_comments.php';
- include 'comment.php'; 
+  
+ 
  		
- ?>
 
 
 
@@ -409,7 +408,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </body>
 <footer></footer>
-<?php include 'footer.php';?>
+<?php include 'footer1.1.php';?>
 
 
 </html>

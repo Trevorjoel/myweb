@@ -1,7 +1,7 @@
 <html>
 
 
-<article class=articleform>
+<article class="articleform bottom-spacer featuresColumn">
 <IMG style="float: right;"class="flagimage"SRC="images/world.png" ALT="theteachermarket" WIDTH=50 HEIGHT=50>
 <header> <h1 style="font-size : 250%">Your Article here?</h1></header>
 <hr>

@@ -11,7 +11,7 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="main.css">
-<?php include 'header.php';?>
+<?php include 'header1.1.php';?>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -59,7 +59,7 @@
 <h1>English For Real Life</h1>
 
 
-<article class="articleform">
+<article class="articleform bottom-spacer">
 <img style="float: right;"class="flagimage"src="images/russianflag.jpg" alt="theteachermarket" width="80" height="60">
   <img style="float: right;"class="flagimage"src="images/skypelessons.jpg" alt="theteachermarket" width="90" height="60">
 
@@ -138,13 +138,15 @@ Three-month package (2 lessons per week):<br>
 
  
 
-            <?php include 'list_comments.php'; include 'comment.php'; ?>
-</div></article>
+           <h2 class="comments-wrapper-heading">Comments:</h2>
+ <div class="fb-comments" data-href="http://alternicom.com/english-for-real-life.php?id=3" data-width="800" data-numposts="10"></div>
+    </article>
+
 
 </body>
 
  <footer>
-  <?php include 'footer.php';?>
+  <?php include 'footer1.1.php';?>
   </footer>
 
 </html>
